@@ -4,7 +4,7 @@
 #
 # clear up gay video filename 
 # ------------------------------------------
-# zhuo.yuan
+# zhuo.yuang
 #
 # need rename command 
 # macos use `brew install rename` to install 
