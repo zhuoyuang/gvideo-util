@@ -167,6 +167,9 @@ rename "s/^Catalina(-|_| |~~)/C1R~~/" *
 # CB    ->  CockyBoys
 rename "s/^CB(-|_| )/CockyBoys~~/" * 
 
+#CPM    -> CumPigMen
+rename "s/^CPM(-|_| )/CumPigMen~~/" CPM* 
+
 
 
 
@@ -224,6 +227,10 @@ rename "s/^(g|G)ayRoom(-|_| )/GayRoom~~/" *
 # GH-	->	GayHoopla~~
 rename "s/^GH(-|_)/GayHoopla~~/" * 
 
+# Gay Patrol    ->  GayPatrol
+rename "s/^Gay Patrol(-|_| )/GayPatrol~~/" Gay* 
+rename "s/^GayPatrol(-|_| )/GayPatrol~~/" Gay* 
+rename "s/^GayPatrol.com(-|_| )/GayPatrol~~/" Gay* 
 
 
 
@@ -236,12 +243,16 @@ rename "s/^HAR(-|_)/HairyAndRaw~~/" *
 
 # HBL-	->	HardBritLads~~
 rename "s/^HBL(-|_)/HardBritLads~~/" * 
+rename "s/^HardBritLads(-|_)/HardBritLads~~/" HardBritLads* 
+rename "s/^HardBritLads.com(-|_)/HardBritLads~~/" HardBritLads* 
+rename "s/^Hard Brit Lads(-|_)/HardBritLads~~/" Hard* 
 
 # HH-	->	HotHouse~~
 rename "s/^HH(-|_)/HotHouse~~/" * 
 
 # HK-	->	HardKinks~~
 rename "s/^HK(-|_)/HardKinks~~/" * 
+rename "s/^Hard Kinks(-|_)/HardKinks~~/" * 
 
 
 
@@ -312,13 +323,16 @@ rename "s/^RS(-|_)/RagingStallion~~/" *
 
 # RAR-	->	RawAndRough~~
 rename "s/^RAR(-|_)/RawAndRough~~/" * 
-
 rename "s/^Raw (A|a)nd Rough(-|_| )/RawAndRough~~/" * 
 rename "s/^rawandrough.com/RawAndRough/" * 
+
+# RVD   -> RobertVanDamme
+rename "s/^RVD(-|_)/RobertVanDamme~~/" * 
 
 
 # rawcastings-	->	RawCastings~~
 rename "s/^Raw Castings/RawCastings/" * 
+rename "s/^rawCastings(-|_)/RawCastings~~/" rawCastings* 
 
 rename "s/^rawcastings/rawcastingstmp/" * 
 rename "s/^rawcastingstmp/RawCastings/" * 
@@ -331,8 +345,35 @@ rename "s/^rawcastingstmp/RawCastings/" *
 # PS-	->	PrideStudios~~
 rename "s/^PS(-|_)/PrideStudios~~/" * 
 
+# PM	->	ParagonMen~~
+rename "s/^PM(-|_| )/ParagonMen~~/" PM* 
+rename "s/^ParagonMen.com(-|_| )/ParagonMen~~/" ParagonMen* 
+
+# ParoleHim.com   ->    ParoleHim~~
+rename "s/ParoleHim.com-/ParoleHim~~/" ParoleHim*
+rename "s/ParoleHim(-|_)/ParoleHim~~/" ParoleHim*
+
+# Powermen  ->  PowerMen
+rename "s/Powermen(-|_| )/PowerMen~~/" Powermen*
+rename "s/Powermen.com(-|_| )/PowerMen~~/" Powermen*
+
+# Pride Studios ->  PrideStudios
+rename "s/PS(-|_| )/PrideStudios~~/" PS*
+rename "s/Pride Studios(-|_| )/PrideStudios~~/" Pride*
+rename "s/Pridestudios.com(-|_| )/PrideStudios~~/" Pride*
+rename "s/PrideStudios~~PS //" Pride*
 
 
+# Q ########################################
+
+# R ########################################
+
+# RawJoxxx-  ->  RawJoxxx~~
+rename "s/RawJoxxx(-|_| )/RawJoxxx-~~/" Raw*
+rename "s/RawJOXXX(-|_| )/RawJoxxx-~~/" Raw*
+
+# Raw Edge Video    ->  RawEdgeVideo
+rename "s/Raw Edge Video(-|_| )/RawEdgeVideo~~/" Raw*
 
 
 # S ########################################
@@ -354,6 +395,10 @@ rename "s/^MO(-|_)/MeninosOnline~~/" *
 
 # MM-	->	MaverickMen~~
 rename "s/^MM(-|_)/MaverickMen~~/" * 
+rename "s/^Maverick Men(-|_| )/MaverickMen~~/" * 
+rename "s/^MaverickMen(-|_)/MaverickMen~~/" * 
+rename "s/^maverickmen.com(-|_)/MaverickMen~~/" maveric* 
+
 
 # MO30-	->	MenOver30~~
 rename "s/^MO30(-|_)/MenOver30~~/" * 
@@ -378,12 +423,32 @@ rename "s/^MY10(-|_)/My10Inches~~/" *
 
 # MF    ->  MachoFuckers
 rename "s/^MF(-|_)/MachoFuckers~~/" * 
+rename "s/^MachoFucker(-|_| )/MachoFuckers~~/" Macho* 
+rename "s/^Machofucker(-|_| )/MachoFuckers~~/" Macho* 
 
 # MFC   ->  MachoFactory
 rename "s/^MFC(-|_)/MachoFactory~~/" * 
+rename "s/^MachoFactory(-|_)/MachoFactory~~/" Macho* 
+rename "s/^Machofactory(-|_)/MachoFactory~~/" Macho* 
 
+# malephysical.co.uk MalePhysical
+rename "s/^malephysical.co.uk(-|_)/MalePhysical~~/" malephysica* 
 
+# Male Reality- -> MaleReality~~
+rename "s/^Male Reality(-|_| |~~)/MaleReality~~/" Male* 
+rename "s/^MaleReality.com(-|_| |~~)/MaleReality~~/" Male* 
 
+# ManRoyale-    ManRoyale~~
+rename "s/^ManRoyale(-|_| |~~)/ManRoyale~~/" Man* 
+
+# ManHandled    ManHandled~~
+rename "s/^ManHandled(-|_| |~~)/ManHandled~~/" Man* 
+rename "s/^Manhandled(-|_| |~~)/ManHandled~~/" Man* 
+
+# massivestudio MassiveStudio
+rename "s/^massivestudio(-|_| |~~)/MassiveStudio~~/" mass* 
+rename "s/^massive-studio(-|_| |~~)/MassiveStudio~~/" massi* 
+rename "s/^Massive(-|_| |~~)/MassiveStudio~~/" Mass* 
 
 
 
@@ -431,6 +496,14 @@ rename "s/^JSL(-|_)/JasonSparksLive~~/" *
 # JSV   ->  JoeSchmoeVideos 
 rename "s/^JSV(-|_| )/JoeSchmoeVideos~~/" * 
 
+# JakeCruise.com-  -> JakeCruise~~
+rename "s/^JakeCruise.com(-|_| )/JakeCruise~~/" JakeCruis* 
+rename "s/^Jake Cruise(-|_| )/JakeCruise~~/" Jake* 
+rename "s/^Jake Cruise/JakeCruise/" Jake* 
+
+# JuicyBoys-    JuicyBoys~~
+rename "s/^JuicyBoys(-|_| )/JuicyBoys~~/" JuicyBoys* 
+
 
 # U ########################################
 
@@ -454,6 +527,8 @@ rename "s/_-/-/" *
 
 # ~~~~ -> ~~
 rename "s/~~(~~|-|_)/~~/" * 
+rename "s/-~~~~/~~/" * 
+rename "s/-~~/~~/" * 
 
 # 清理括号
 rename "s/(\(|\)|\[|\]|\{|\})//" *
