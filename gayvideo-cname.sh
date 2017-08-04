@@ -1,279 +1,309 @@
 #!/bin/sh
-################################
+
+############################################
 #
-# change gay video name 
+# clear up gay video filename 
+# ------------------------------------------
+# zhuo.yuan
 #
-################################
+# need rename command 
+# macos use `brew install rename` to install 
+#
+############################################
+
+
+
+
+
+
+# clear up #################################
 
 # 0000000-0  -> ''
-rename "s/^[0-9]+-[0-9]//" * --dry-run
-
+rename "s/^[0-9]+-[0-9]//" * 
 
 # _-_  -> ''
-rename "s/_-_//" * --dry-run
+rename "s/_-_//" * 
 
+
+
+
+
+# B ########################################
 # BB_	->	BaitBuddies~~
 # BB-	->	BaitBuddies~~
-rename "s/^BB(-|_)/BaitBuddies~~/" * --dry-run
+rename "s/^BB(-|_)/BaitBuddies~~/" * 
 
 # BG-	->	BoundGods~~
 # BG_	->	BoundGods~~
-rename "s/^BG(-|_)/BoundGods~~/" * --dry-run
+rename "s/^BG(-|_)/BoundGods~~/" * 
 
 # BBD-	->	BlackBreeders~~
 # BBD_	->	BlackBreeders~~
-rename "s/^BBD(-|_)/BlackBreeders~~/" * --dry-run
+rename "s/^BBD(-|_)/BlackBreeders~~/" * 
 
 # BCH_	->	BeefcakeHunter~~
 # BCH-	->	BeefcakeHunter~~
 # BHH_	->	BeefcakeHunter~~
 # BHH-	->	BeefcakeHunter~~
-rename "s/^BCH(-|_)/BeefcakeHunter~~/" * --dry-run
-rename "s/^BHH(-|_)/BeefcakeHunter~~/" * --dry-run
+rename "s/^BCH(-|_)/BeefcakeHunter~~/" * 
+rename "s/^BHH(-|_)/BeefcakeHunter~~/" * 
 
 # BD-	->	ButchDixon~~
 # BD_	->	ButchDixon~~
-rename "s/^BD(-|_)/ButchDixon~~/" * --dry-run
+rename "s/^BD(-|_)/ButchDixon~~/" * 
 
 # BF_	->	BearFilms~~
-rename "s/^BF(-|_)/BearFilms~~/" * --dry-run
+rename "s/^BF(-|_)/BearFilms~~/" * 
 
 # BFC-	->	BreederFuckers~~
 # BFC_	->	BreederFuckers~~
-rename "s/^BFC(-|_)/BreederFuckers~~/" * --dry-run
+rename "s/^BFC(-|_)/BreederFuckers~~/" * 
 
 # BMR->	BreedMeRaw~~
 # BMR_>	BreedMeRaw~~
-rename "s/^BMR(-|_)/BreedMeRaw~~/" * --dry-run
+rename "s/^BMR(-|_)/BreedMeRaw~~/" * 
 
 # BROMO_	->	Bromo~~
 # BROMO-	->	Bromo~~
-rename "s/^BROMO(-|_)/Bromo~~/" * --dry-run
+rename "s/^BROMO(-|_)/Bromo~~/" * 
 
 
 # BIE-	->	Biempire~~
 # BIE_	->	Biempire~~
-rename "s/^BIE(-|_)/Biempire~~/" * --dry-run
+rename "s/^BIE(-|_)/Biempire~~/" * 
 
 # BLM_	->	BiLatinMen~~
 # BLM-	->	BiLatinMen~~
-rename "s/^BLM(-|_)/BiLatinMen~~/" * --dry-run
+rename "s/^BLM(-|_)/BiLatinMen~~/" * 
 
 # BTH-	->	BarebackThatHole~~
 # BTH_ 	->	BarebackThatHole~~
-rename "s/^BTH(-|_)/BarebackThatHole~~/" * --dry-run
+rename "s/^BTH(-|_)/BarebackThatHole~~/" * 
 
 # BV_ 	->	BiaggiVideos~~
 # BV- 	->	BiaggiVideos~~
-rename "s/^BV(-|_)/BiaggiVideos~~/" * --dry-run
+rename "s/^BV(-|_)/BiaggiVideos~~/" * 
 
 
 
 
 
-
-
+# C ########################################
 
 # CC- 	->	ColbysCrew~~
 # CC_ 	->	ColbysCrew~~
-rename "s/^CC(-|_)/ColbysCrew~~/" * --dry-run
+rename "s/^CC(-|_)/ColbysCrew~~/" * 
 
 
 # CD_ 	->	CollegeDudes~~
 # CD- 	->	CollegeDudes~~
-rename "s/^CD(-|_)/CollegeDudes~~/" * --dry-run
+rename "s/^CD(-|_)/CollegeDudes~~/" * 
 
 
 # CID- 	->	ClubInfernoDungeon~~
 # CID_ 	->	ClubInfernoDungeon~~
-rename "s/^CID(-|_)/ClubInfernoDungeon~~/" * --dry-run
+rename "s/^CID(-|_)/ClubInfernoDungeon~~/" * 
 
 
 # CM- 	->	ChaosMen~~
 # CM_ 	->	ChaosMen~~
-rename "s/^CM(-|_)/ChaosMen~~/" * --dry-run
+rename "s/^CM(-|_)/ChaosMen~~/" * 
 
 # CSM_ 	->	CockSureMen~~
 # CSM- 	->	CockSureMen~~
-rename "s/^CSM(-|_)/CockSureMen~~/" * --dry-run
+rename "s/^CSM(-|_)/CockSureMen~~/" * 
 
 
 
 
 
-# D ##########
+# D ########################################
 
 # DAXT- 	->	DarkAlleyXT~~
 # DAXT_ 	->	DarkAlleyXT~~
-rename "s/^DAXT(-|_)/DarkAlleyXT~~/" * --dry-run
-
+rename "s/^DAXT(-|_)/DarkAlleyXT~~/" * 
 
 # DF_	->	DominicFord~~
 # DF-	->	DominicFord~~
-rename "s/^DF(-|_)/DominicFord~~/" * --dry-run
-
-
+rename "s/^DF(-|_)/DominicFord~~/" * 
 
 # DO-	->	DeviantOtter~~
 # DO_	->	DeviantOtter~~
-rename "s/^DO(-|_)/DeviantOtter~~/" * --dry-run
+rename "s/^DO(-|_)/DeviantOtter~~/" * 
 
 
 
 
+
+
+# E ########################################
 
 # EBD-	->	ExtraBigDicks~~
 # EBD_	->	ExtraBigDicks~~
-rename "s/^EBD(-|_)/ExtraBigDicks~~/" * --dry-run
+rename "s/^EBD(-|_)/ExtraBigDicks~~/" * 
 
 
 
 
 
-
-
-# F ###########################
+# F ########################################
 
 # FM_	->	FuckerMate~~
 # FM-	->	FuckerMate~~
-rename "s/^FM(-|_)/FuckerMate~~/" * --dry-run
+rename "s/^FM(-|_)/FuckerMate~~/" * 
 
 
 
-# G ################
+# G ########################################
 
 # GR-	->	GayRoom~~
 # GR_	->	GayRoom~~
-rename "s/^GR(-|_)/GayRoom~~/" * --dry-run
+rename "s/^GR(-|_)/GayRoom~~/" * 
 
 
 
-# H ################
+
+
+
+# H ########################################
 
 # HAR-	->	HairyAndRaw~~
 # HAR_	->	HairyAndRaw~~
-rename "s/^HAR(-|_)/HairyAndRaw~~/" * --dry-run
+rename "s/^HAR(-|_)/HairyAndRaw~~/" * 
 
 # HBL_	->	HardBritLads~~
 # HBL-	->	HardBritLads~~
-rename "s/^HBL(-|_)/HardBritLads~~/" * --dry-run
+rename "s/^HBL(-|_)/HardBritLads~~/" * 
 
 # HH_	->	HotHouse~~
 # HH-	->	HotHouse~~
-rename "s/^HH(-|_)/HotHouse~~/" * --dry-run
+rename "s/^HH(-|_)/HotHouse~~/" * 
 
 
-# I ########################
+
+
+
+# I ########################################
 # IM-	->	IconMale~~
-rename "s/^IM(-|_)/IconMale~~/" * --dry-run
+rename "s/^IM(-|_)/IconMale~~/" * 
 
 
-# K #########################
+
+
+
+# K ########################################
 
 # KB-	->	KristenBjorn~~
 # KB_	->	KristenBjorn~~
-rename "s/^KB(-|_)/KristenBjorn~~/" * --dry-run
+rename "s/^KB(-|_)/KristenBjorn~~/" * 
 
 
 
 
 
-# L #########################
+# L ########################################
 
 # LM_	->	LegendMen~~
 # LM-	->	LegendMen~~
-rename "s/^LM(-|_)/LegendMen~~/" * --dry-run
+rename "s/^LM(-|_)/LegendMen~~/" * 
 
 # LR-	->	LucasRaunch~~
 # LR_	->	LucasRaunch~~
-rename "s/^LR(-|_)/LucasRaunch~~/" * --dry-run
+rename "s/^LR(-|_)/LucasRaunch~~/" * 
 
 
 
 
 
-# T #########################
+# T ########################################
 
 # TF-	->	TimFuck~~
 # TF_	->	TimFuck~~
-rename "s/^TF(-|_)/TimFuck~~/" * --dry-run
+rename "s/^TF(-|_)/TimFuck~~/" * 
 
 # TM-	->	TitanMen~~
 # TM_	->	TitanMen~~
-rename "s/^TM(-|_)/TitanMen~~/" * --dry-run
+rename "s/^TM(-|_)/TitanMen~~/" * 
 
 # TS-	->	TimSuck~~
 # TS_	->	TimSuck~~
-rename "s/^TS(-|_)/TimSuck~~/" * --dry-run
+rename "s/^TS(-|_)/TimSuck~~/" * 
 
+
+
+
+
+# R ########################################
 
 # RFC_	->	RawFuckClub~~
 # RFC-	->	RawFuckClub~~
-rename "s/^RFC(-|_)/RawFuckClub~~/" * --dry-run
-
+rename "s/^RFC(-|_)/RawFuckClub~~/" * 
 
 # RS-	->	RagingStallion~~
 # RS_	->	RagingStallion~~
-rename "s/^RS(-|_)/RagingStallion~~/" * --dry-run
+rename "s/^RS(-|_)/RagingStallion~~/" * 
 
 # RAR_	->	RawAndRough~~
 # RAR-	->	RawAndRough~~
-rename "s/^RAR(-|_)/RawAndRough~~/" * --dry-run
+rename "s/^RAR(-|_)/RawAndRough~~/" * 
+
+
+
+
+
+# P ########################################
 
 # PS-	->	PrideStudios~~
 # PS_	->	PrideStudios~~
-rename "s/^PS(-|_)/PrideStudios~~/" * --dry-run
+rename "s/^PS(-|_)/PrideStudios~~/" * 
 
 
+
+
+
+# M ########################################
 
 # MOE_	->	MenOnEdge~~
 # MOE-	->	MenOnEdge~~
-rename "s/^MOE(-|_)/MenOnEdge~~/" * --dry-run
+rename "s/^MOE(-|_)/MenOnEdge~~/" * 
 
 # MO-	->	MeninosOnline~~
 # MO_	->	MeninosOnline~~
-rename "s/^MO(-|_)/MeninosOnline~~/" * --dry-run
-
+rename "s/^MO(-|_)/MeninosOnline~~/" * 
 
 # MM_	->	MaverickMen~~
 # MM-	->	MaverickMen~~
-rename "s/^MM(-|_)/MaverickMen~~/" * --dry-run
+rename "s/^MM(-|_)/MaverickMen~~/" * 
 
 # MO30-	->	MenOver30~~
 # MO30_	->	MenOver30~~
-rename "s/^MO30(-|_)/MenOver30~~/" * --dry-run
-
+rename "s/^MO30(-|_)/MenOver30~~/" * 
 
 # MDM_	->	Mundomais~~
 # MDM-	->	Mundomais~~
-rename "s/^MDM(-|_)/Mundomais~~/" * --dry-run
-
+rename "s/^MDM(-|_)/Mundomais~~/" * 
 
 # MBZ_	->	MormonBoyz~~
 # MBZ-	->	MormonBoyz~~
-rename "s/^MBZ(-|_)/MormonBoyz~~/" * --dry-run
-
+rename "s/^MBZ(-|_)/MormonBoyz~~/" * 
 
 # MAP-	->	MenAtPlay~~
 # MAP_	->	MenAtPlay~~
-rename "s/^MAP(-|_)/MenAtPlay~~/" * --dry-run
+rename "s/^MAP(-|_)/MenAtPlay~~/" * 
 
 # MEN_	->	Men~~
 # MEN-	->	Men~~
-rename "s/^MEN(-|_)/Men~~/" * --dry-run
+rename "s/^MEN(-|_)/Men~~/" * 
 
 # MEN~~	->	Men~~
-rename "s/^MEN~~/Men~~/" * --dry-run
+rename "s/^MEN~~/Men~~/" * 
 
 
 
 
-# U ######################
+
+# U ########################################
 # UKHJ- 	-> UKHotJocks~~
-rename "s/^UKHJ(-|_)/UKHotJocks~~/" * --dry-run
-
-
-
-
+rename "s/^UKHJ(-|_)/UKHotJocks~~/" * 
 
 
