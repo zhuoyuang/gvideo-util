@@ -222,6 +222,7 @@ rename "s/^GB(-|_)/GayBone~~/" *
 
 # GR-	->	GayRoom~~
 rename "s/^GR(-|_)/GayRoom~~/" * 
+rename "s/^gayroom(-|_)/GayRoom~~/" gay* 
 rename "s/^(g|G)ayRoom(-|_| )/GayRoom~~/" * 
 
 # GH-	->	GayHoopla~~
@@ -232,6 +233,8 @@ rename "s/^Gay Patrol(-|_| )/GayPatrol~~/" Gay*
 rename "s/^GayPatrol(-|_| )/GayPatrol~~/" Gay* 
 rename "s/^GayPatrol.com(-|_| )/GayPatrol~~/" Gay* 
 
+# gaypawn.com   GayPawn
+rename "s/^gaypawn.com(-|_| )/GayPawn~~/" gaypawn* 
 
 
 
