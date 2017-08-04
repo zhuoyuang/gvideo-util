@@ -59,6 +59,11 @@ rename "s/^AmericanMuscleHunks.com(-|_)/AmericanMuscleHunks~~/" *
 rename "s/^americanmuslehunks.com(-|_)/AmericanMuscleHunks~~/" * 
 
 
+# AMF   ->  AlphaMale~~
+rename "s/^AMF(-|_)/AlphaMale~~/" * 
+rename "s/^AlphaMales~~/AlphaMale~~/" * 
+
+
 
 
 
@@ -71,61 +76,51 @@ rename "s/^baitbuddies/baitbuddiestmp/" *
 rename "s/^baitbuddiestmp/BaitBuddies/" * 
 
 # BG-	->	BoundGods~~
-# BG_	->	BoundGods~~
 rename "s/^BG(-|_)/BoundGods~~/" * 
 
 # BBD-	->	BlackBreeders~~
-# BBD_	->	BlackBreeders~~
 rename "s/^BBD(-|_)/BlackBreeders~~/" * 
 
-# BCH_	->	BeefcakeHunter~~
 # BCH-	->	BeefcakeHunter~~
-# BHH_	->	BeefcakeHunter~~
 # BHH-	->	BeefcakeHunter~~
 rename "s/^BCH(-|_)/BeefcakeHunter~~/" * 
 rename "s/^BHH(-|_)/BeefcakeHunter~~/" * 
 
-# BD-	->	ButchDixon~~
-# BD_	->	ButchDixon~~
+# BD	->	ButchDixon~~
+# BDX	->	ButchDixon~~
 rename "s/^BD(-|_)/ButchDixon~~/" * 
+rename "s/^BDX(-|_)/ButchDixon~~/" * 
 
 # BF_	->	BearFilms~~
 rename "s/^BF(-|_)/BearFilms~~/" * 
 
 # BFC-	->	BreederFuckers~~
-# BFC_	->	BreederFuckers~~
 rename "s/^BFC(-|_)/BreederFuckers~~/" * 
 
 # BMR-  ->	BreedMeRaw~~
-# BMR_  ->	BreedMeRaw~~
 rename "s/^BMR(-|_)/BreedMeRaw~~/" * 
 
-# BRO_  ->	Bromo~~
 # BRO-  ->	Bromo~~
 rename "s/^BRO(-|_)/Bromo~~/" * 
 
-# BROMO_	->	Bromo~~
 # BROMO-	->	Bromo~~
 rename "s/^BROMO(-|_)/Bromo~~/" * 
 
 
 # BIE-	->	Biempire~~
-# BIE_	->	Biempire~~
 rename "s/^BIE(-|_)/Biempire~~/" * 
 
-# BLM_	->	BiLatinMen~~
 # BLM-	->	BiLatinMen~~
 rename "s/^BLM(-|_)/BiLatinMen~~/" * 
 
 # BTH-	->	BarebackThatHole~~
-# BTH_ 	->	BarebackThatHole~~
 rename "s/^BTH(-|_)/BarebackThatHole~~/" * 
 
-# BV_ 	->	BiaggiVideos~~
 # BV- 	->	BiaggiVideos~~
 rename "s/^BV(-|_)/BiaggiVideos~~/" * 
 
-# brokestraightboys 	->	BrokeStraightBoys
+# BSB   ->	BrokeStraightBoys
+rename "s/^BSB(-|_)/BrokeStraightBoys~~/" * 
 rename "s/^brokestraightboys/brokestraightboystmp/" * 
 rename "s/^brokestraightboystmp/BrokeStraightBoys/" * 
 rename "s/^Broke Straight Boys( |-)/BrokeStraightBoys~~/" * 
@@ -136,6 +131,9 @@ rename "s/^BigBlue(-|_)/BigBlue~~/" *
 
 #BigDaddy.com-  -> BigDaddy~~
 rename "s/^BigDaddy.com(-|_)/BigDaddy~~/" * 
+
+
+
 
 
 # C ########################################
@@ -163,8 +161,15 @@ rename "s/^CSM(-|_)/CockSureMen~~/" *
 rename "s/^C1R(-|_| )/C1R~~/" * 
 rename "s/^C1R.com(-|_| )/C1R~~/" * 
 rename "s/^c1r.com(-|_| )/C1R~~/" * 
-
 rename "s/^Catalina(-|_| |~~)/C1R~~/" * 
+
+
+# CB    ->  CockyBoys
+rename "s/^CB(-|_| )/CockyBoys~~/" * 
+
+
+
+
 
 
 # D ########################################
@@ -189,8 +194,10 @@ rename "s/^DO(-|_)/DeviantOtter~~/" *
 # E ########################################
 
 # EBD-	->	ExtraBigDicks~~
-# EBD_	->	ExtraBigDicks~~
 rename "s/^EBD(-|_)/ExtraBigDicks~~/" * 
+
+# EV-	->	EricVideos~~
+rename "s/^EV(-|_)/EricVideos~~/" * 
 
 
 
@@ -198,9 +205,13 @@ rename "s/^EBD(-|_)/ExtraBigDicks~~/" *
 
 # F ########################################
 
-# FM_	->	FuckerMate~~
 # FM-	->	FuckerMate~~
 rename "s/^FM(-|_)/FuckerMate~~/" * 
+
+# FD-	->	FrenchDudes~~
+rename "s/^FD(-|_)/FrenchDudes~~/" * 
+
+
 
 
 
@@ -231,10 +242,11 @@ rename "s/^HAR(-|_)/HairyAndRaw~~/" *
 # HBL-	->	HardBritLads~~
 rename "s/^HBL(-|_)/HardBritLads~~/" * 
 
-# HH_	->	HotHouse~~
 # HH-	->	HotHouse~~
 rename "s/^HH(-|_)/HotHouse~~/" * 
 
+# HK-	->	HardKinks~~
+rename "s/^HK(-|_)/HardKinks~~/" * 
 
 
 
@@ -346,43 +358,35 @@ rename "s/^SC(-|_)/SeanCody~~/" *
 
 # M ########################################
 
-# MOE_	->	MenOnEdge~~
 # MOE-	->	MenOnEdge~~
 rename "s/^MOE(-|_)/MenOnEdge~~/" * 
 
 # MO-	->	MeninosOnline~~
-# MO_	->	MeninosOnline~~
 rename "s/^MO(-|_)/MeninosOnline~~/" * 
 
-# MM_	->	MaverickMen~~
 # MM-	->	MaverickMen~~
 rename "s/^MM(-|_)/MaverickMen~~/" * 
 
 # MO30-	->	MenOver30~~
-# MO30_	->	MenOver30~~
 rename "s/^MO30(-|_)/MenOver30~~/" * 
 
-# MDM_	->	Mundomais~~
 # MDM-	->	Mundomais~~
 rename "s/^MDM(-|_)/Mundomais~~/" * 
 
-# MBZ_	->	MormonBoyz~~
 # MBZ-	->	MormonBoyz~~
 rename "s/^MBZ(-|_)/MormonBoyz~~/" * 
 
 # MAP-	->	MenAtPlay~~
-# MAP_	->	MenAtPlay~~
 rename "s/^MAP(-|_)/MenAtPlay~~/" * 
 
-# MEN_	->	Men~~
 # MEN-	->	Men~~
-rename "s/^MEN(-|_)/Men~~/" * 
-
-# MEN~~	->	Men~~
-rename "s/^MEN~~/Men~~/" * 
+rename "s/^MEN(-|_|~~)/MENTMP~~/" * 
+rename "s/^MENTMP(-|_|~~)/Men~~/" * 
 
 # M10I-	->	My10Inches~~
 rename "s/^M10I(-|_)/My10Inches~~/" * 
+rename "s/^M10(-|_)/My10Inches~~/" * 
+rename "s/^MY10(-|_)/My10Inches~~/" * 
 
 # MF    ->  MachoFuckers
 rename "s/^MF(-|_)/MachoFuckers~~/" * 
@@ -392,9 +396,13 @@ rename "s/^MFC(-|_)/MachoFactory~~/" *
 
 
 
+
+
+
 # N ########################################
 
-# Nasty Daddy -> NastyDaddy
+# ND    ->  NastyDaddy
+rename "s/^ND(-|_)/NastyDaddy~~/" * 
 rename "s/^NastyDaddy(-|_| )/NastyDaddy~~/" * 
 rename "s/^nastydaddy(-|_| )/NastyDaddy~~/" * 
 rename "s/^NastyDaddy.com(-|_| )/NastyDaddy~~/" * 
@@ -411,6 +419,8 @@ rename "s/^NaturalBornBreeders(-|_| )/NaturalBornBreeders~~/" *
 rename "s/^naturalbornbreeders.com(-|_| )/NaturalBornBreeders~~/" * 
 
 
+# NDB    -> NextDoorStudios 
+rename "s/^NDB(-|_)/NextDoorStudios~~/" * 
 
 # J ########################################
 
