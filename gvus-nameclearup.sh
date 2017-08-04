@@ -175,15 +175,12 @@ rename "s/^CB(-|_| )/CockyBoys~~/" *
 # D ########################################
 
 # DAXT- 	->	DarkAlleyXT~~
-# DAXT_ 	->	DarkAlleyXT~~
 rename "s/^DAXT(-|_)/DarkAlleyXT~~/" * 
 
-# DF_	->	DominicFord~~
 # DF-	->	DominicFord~~
 rename "s/^DF(-|_)/DominicFord~~/" * 
 
 # DO-	->	DeviantOtter~~
-# DO_	->	DeviantOtter~~
 rename "s/^DO(-|_)/DeviantOtter~~/" * 
 
 
@@ -235,10 +232,8 @@ rename "s/^GH(-|_)/GayHoopla~~/" *
 # H ########################################
 
 # HAR-	->	HairyAndRaw~~
-# HAR_	->	HairyAndRaw~~
 rename "s/^HAR(-|_)/HairyAndRaw~~/" * 
 
-# HBL_	->	HardBritLads~~
 # HBL-	->	HardBritLads~~
 rename "s/^HBL(-|_)/HardBritLads~~/" * 
 
@@ -262,7 +257,6 @@ rename "s/^IM(-|_)/IconMale~~/" *
 # K ########################################
 
 # KB-	->	KristenBjorn~~
-# KB_	->	KristenBjorn~~
 rename "s/^KB(-|_)/KristenBjorn~~/" * 
 
 
@@ -285,7 +279,6 @@ rename "s/^legendmentmp/LegendMen/" *
 rename "s/~~LM( |_)/~~/" *
 
 # LR-	->	LucasRaunch~~
-# LR_	->	LucasRaunch~~
 rename "s/^LR(-|_)/LucasRaunch~~/" * 
 
 
@@ -295,29 +288,26 @@ rename "s/^LR(-|_)/LucasRaunch~~/" *
 # T ########################################
 
 # TF-	->	TimFuck~~
-# TF_	->	TimFuck~~
 rename "s/^TF(-|_)/TimFuck~~/" * 
 
 # TM-	->	TitanMen~~
-# TM_	->	TitanMen~~
 rename "s/^TM(-|_)/TitanMen~~/" * 
 
 # TS-	->	TimSuck~~
-# TS_	->	TimSuck~~
 rename "s/^TS(-|_)/TimSuck~~/" * 
 
+# TT-	->	TimTales~~
+rename "s/^TT(-|_)/TimTales~~/" * 
 
 
 
 
 # R ########################################
 
-# RFC_	->	RawFuckClub~~
 # RFC-	->	RawFuckClub~~
 rename "s/^RFC(-|_)/RawFuckClub~~/" * 
 
 # RS-	->	RagingStallion~~
-# RS_	->	RagingStallion~~
 rename "s/^RS(-|_)/RagingStallion~~/" * 
 
 # RAR-	->	RawAndRough~~
@@ -339,7 +329,6 @@ rename "s/^rawcastingstmp/RawCastings/" *
 # P ########################################
 
 # PS-	->	PrideStudios~~
-# PS_	->	PrideStudios~~
 rename "s/^PS(-|_)/PrideStudios~~/" * 
 
 
@@ -348,7 +337,6 @@ rename "s/^PS(-|_)/PrideStudios~~/" *
 
 # S ########################################
 
-# SC_	->	SeanCody~~
 # SC-	->	SeanCody~~
 rename "s/^SC(-|_)/SeanCody~~/" * 
 
@@ -418,9 +406,16 @@ rename "s/^Natural Born Breeders(-|_| )/NaturalBornBreeders~~/" *
 rename "s/^NaturalBornBreeders(-|_| )/NaturalBornBreeders~~/" * 
 rename "s/^naturalbornbreeders.com(-|_| )/NaturalBornBreeders~~/" * 
 
-
 # NDB    -> NextDoorStudios 
 rename "s/^NDB(-|_)/NextDoorStudios~~/" * 
+
+# NS    ->  NakedSword
+rename "s/^NS(-|_)/NakedSword~~/" * 
+
+
+
+
+
 
 # J ########################################
 
