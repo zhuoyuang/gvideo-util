@@ -100,6 +100,9 @@ rename "s/^BFC(-|_)/BreederFuckers~~/" *
 # BMR-  ->	BreedMeRaw~~
 rename "s/^BMR(-|_)/BreedMeRaw~~/" * 
 
+# BM-  ->	BlakeMason~~
+rename "s/^BM(-|_)/BlakeMason~~/" * 
+
 # BRO-  ->	Bromo~~
 rename "s/^BRO(-|_)/Bromo~~/" * 
 
@@ -132,6 +135,8 @@ rename "s/^BigBlue(-|_)/BigBlue~~/" *
 #BigDaddy.com-  -> BigDaddy~~
 rename "s/^BigDaddy.com(-|_)/BigDaddy~~/" * 
 
+# BIR       ->  BreedItRaw
+rename "s/^BIR(-|_)/BreedItRaw~~/" BIR* 
 
 
 
@@ -410,6 +415,7 @@ rename "s/^MO30(-|_)/MenOver30~~/" *
 rename "s/^MDM(-|_)/Mundomais~~/" * 
 
 # MBZ-	->	MormonBoyz~~
+rename "s/^MMB(-|_)/MormonBoyz~~/" * 
 rename "s/^MBZ(-|_)/MormonBoyz~~/" * 
 
 # MAP-	->	MenAtPlay~~
@@ -441,7 +447,8 @@ rename "s/^malephysical.co.uk(-|_)/MalePhysical~~/" malephysica*
 rename "s/^Male Reality(-|_| |~~)/MaleReality~~/" Male* 
 rename "s/^MaleReality.com(-|_| |~~)/MaleReality~~/" Male* 
 
-# ManRoyale-    ManRoyale~~
+# MR    ->  ManRoyale~~
+rename "s/^MR(-|_| |~~)/ManRoyale~~/" MR* 
 rename "s/^ManRoyale(-|_| |~~)/ManRoyale~~/" Man* 
 
 # ManHandled    ManHandled~~
@@ -452,6 +459,11 @@ rename "s/^Manhandled(-|_| |~~)/ManHandled~~/" Man*
 rename "s/^massivestudio(-|_| |~~)/MassiveStudio~~/" mass* 
 rename "s/^massive-studio(-|_| |~~)/MassiveStudio~~/" massi* 
 rename "s/^Massive(-|_| |~~)/MassiveStudio~~/" Mass* 
+
+
+
+
+
 
 
 
@@ -475,6 +487,7 @@ rename "s/^NaturalBornBreeders(-|_| )/NaturalBornBreeders~~/" *
 rename "s/^naturalbornbreeders.com(-|_| )/NaturalBornBreeders~~/" * 
 
 # NDB    -> NextDoorStudios 
+rename "s/^NDS(-|_)/NextDoorStudios~~/" * 
 rename "s/^NDB(-|_)/NextDoorStudios~~/" * 
 
 # NS    ->  NakedSword
