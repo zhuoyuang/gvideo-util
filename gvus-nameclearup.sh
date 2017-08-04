@@ -21,10 +21,9 @@
 # 0000000-0  -> ''
 rename "s/^[0-9]+-[0-9]//" * 
 
-# _-_  -> ''
-rename "s/_-_//" * 
 
-
+# ' - ' -> '-'
+rename "s/ - /-/" *
 
 
 
@@ -59,9 +58,13 @@ rename "s/^BF(-|_)/BearFilms~~/" *
 # BFC_	->	BreederFuckers~~
 rename "s/^BFC(-|_)/BreederFuckers~~/" * 
 
-# BMR->	BreedMeRaw~~
-# BMR_>	BreedMeRaw~~
+# BMR-  ->	BreedMeRaw~~
+# BMR_  ->	BreedMeRaw~~
 rename "s/^BMR(-|_)/BreedMeRaw~~/" * 
+
+# BRO_  ->	Bromo~~
+# BRO-  ->	Bromo~~
+rename "s/^BRO(-|_)/Bromo~~/" * 
 
 # BROMO_	->	Bromo~~
 # BROMO-	->	Bromo~~
@@ -156,9 +159,15 @@ rename "s/^FM(-|_)/FuckerMate~~/" *
 
 # G ########################################
 
+# GB-	->	GayBone~~
+rename "s/^GB(-|_)/GayBone~~/" * 
+
 # GR-	->	GayRoom~~
-# GR_	->	GayRoom~~
 rename "s/^GR(-|_)/GayRoom~~/" * 
+rename "s/^(g|G)ayRoom(-|_| )/GayRoom~~/" * 
+
+# GH-	->	GayHoopla~~
+rename "s/^GH(-|_)/GayHoopla~~/" * 
 
 
 
@@ -203,7 +212,9 @@ rename "s/^KB(-|_)/KristenBjorn~~/" *
 
 # L ########################################
 
-# LM_	->	LegendMen~~
+# LE-	->	LucasEntertainment~~
+rename "s/^LE(-|_)/LucasEntertainment~~/" * 
+
 # LM-	->	LegendMen~~
 rename "s/^LM(-|_)/LegendMen~~/" * 
 
@@ -247,6 +258,10 @@ rename "s/^RS(-|_)/RagingStallion~~/" *
 # RAR-	->	RawAndRough~~
 rename "s/^RAR(-|_)/RawAndRough~~/" * 
 
+rename "s/^Raw (A|a)nd Rough(-|_| )/RawAndRough~~/" * 
+rename "s/^rawandrough.com/RawAndRough/" * 
+
+
 
 
 
@@ -256,6 +271,16 @@ rename "s/^RAR(-|_)/RawAndRough~~/" *
 # PS-	->	PrideStudios~~
 # PS_	->	PrideStudios~~
 rename "s/^PS(-|_)/PrideStudios~~/" * 
+
+
+
+
+
+# S ########################################
+
+# SC_	->	SeanCody~~
+# SC-	->	SeanCody~~
+rename "s/^SC(-|_)/SeanCody~~/" * 
 
 
 
@@ -298,12 +323,42 @@ rename "s/^MEN(-|_)/Men~~/" *
 # MEN~~	->	Men~~
 rename "s/^MEN~~/Men~~/" * 
 
+# M10I-	->	My10Inches~~
+rename "s/^M10I(-|_)/My10Inches~~/" * 
+
+
+
+
+
+# J ########################################
+
+# JZ- 	-> JimmyZ~~
+rename "s/^JZ(-|_)/JimmyZ~~/" * 
+
 
 
 
 
 # U ########################################
+
 # UKHJ- 	-> UKHotJocks~~
 rename "s/^UKHJ(-|_)/UKHotJocks~~/" * 
+
+
+
+
+# clear up #################################
+
+# _-_  -> ''
+rename "s/_-_//" * 
+
+# ~~~~ -> ~~
+rename "s/~~~~/~~/" * 
+
+# 清理括号
+rename "s/(\(|\)|\[|\]|\{|\})//" *
+
+
+
 
 
