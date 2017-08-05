@@ -19,23 +19,26 @@
 # clear up #################################
 
 # 0000000-0  -> ''
-rename "s/^[0-9]+-[0-9]//" * 
+rename "s/^[0-9]+-[0-9]+//i" * 
 
 # ~~1234   -> ~~
-rename "s/~~[0-9]+/~~/" * 
-
+rename "s/~~[0-9]+/~~/i" * 
 
 # ' - ' -> '-'
-rename "s/ - /-/" *
-rename "s/- /-/" *
-rename "s/ -/-/" *
-rename "s/–/-/" *
+rename "s/ *– */-/i" *
+
+# _-_  -> ''
+rename "s/_*-_*/-/i" * 
+
+
+
+
 
 
 # 3 ########################################
 
 # 3rdworldvideo.com -> 3rdWorldVideo
-rename "s/^3rdworldvideo.com(-|_)/3rdWorldVideo~~/" * 
+rename "s/^3rdworldvideo(.com)*(-|_| )/3rdWorldVideo~~/i" * 
 
 
 
@@ -44,24 +47,21 @@ rename "s/^3rdworldvideo.com(-|_)/3rdWorldVideo~~/" *
 # A ########################################
 
 # Active Duty   -> ActiveDuty
-rename "s/^Active Duty(-|_)/ActiveDuty~~/" * 
+rename "s/^Active *Duty(-|_| )/ActiveDuty~~/i" * 
 
 # All American Heroes   -> AllAmericanHeroes~~
-rename "s/^All American Heroes(-|_)/AllAmericanHeroes~~/" * 
+rename "s/^All *American *Heroes(-|_| )/AllAmericanHeroes~~/i" * 
 
 # AllRealBareback-    ->  AllRealBareback~~
-rename "s/^AllRealBareback(-|_)/AllRealBareback~~/" * 
+rename "s/^AllRealBareback(-|_| )/AllRealBareback~~/i" * 
 
 #American Muscle Hunks-  ->  AmericanMuscleHunks~~
-rename "s/^American Muscle Hunks(-|_)/AmericanMuscleHunks~~/" * 
-rename "s/^AmericanMuscleHunks(-|_)/AmericanMuscleHunks~~/" * 
-rename "s/^AmericanMuscleHunks.com(-|_)/AmericanMuscleHunks~~/" * 
-rename "s/^americanmuslehunks.com(-|_)/AmericanMuscleHunks~~/" * 
+rename "s/^American *Muscle *Hunks(.com)*(-|_| )/AmericanMuscleHunks~~/i" * 
 
 
 # AMF   ->  AlphaMale~~
-rename "s/^AMF(-|_)/AlphaMale~~/" * 
-rename "s/^AlphaMales~~/AlphaMale~~/" * 
+rename "s/^AMF(-|_| )/AlphaMale~~/i" * 
+rename "s/^AlphaMales~~/AlphaMale~~/i" * 
 
 
 
@@ -69,111 +69,107 @@ rename "s/^AlphaMales~~/AlphaMale~~/" *
 
 # B ########################################
 
-# BB-	->	BaitBuddies~~
-rename "s/^BB(-|_)/BaitBuddies~~/" * 
+# BB	->	BaitBuddies~~
+rename "s/^BB(-|_| )/BaitBuddies~~/i" * 
 
 rename "s/^baitbuddies/baitbuddiestmp/" * 
-rename "s/^baitbuddiestmp/BaitBuddies/" * 
+rename "s/^baitbuddiestmp/BaitBuddies/i" * 
 
-# BG-	->	BoundGods~~
-rename "s/^BG(-|_)/BoundGods~~/" * 
+# BG	->	BoundGods~~
+rename "s/^BG(-|_| )/BoundGods~~/i" * 
 
-# BBD-	->	BlackBreeders~~
-rename "s/^BBD(-|_)/BlackBreeders~~/" * 
+# BBD	->	BlackBreeders~~
+rename "s/^BBD(-|_| )/BlackBreeders~~/i" * 
 
-# BCH-	->	BeefcakeHunter~~
-# BHH-	->	BeefcakeHunter~~
-rename "s/^BCH(-|_)/BeefcakeHunter~~/" * 
-rename "s/^BHH(-|_)/BeefcakeHunter~~/" * 
+# BCH	->	BeefcakeHunter~~
+# BHH	->	BeefcakeHunter~~
+rename "s/^BCH(-|_| )/BeefcakeHunter~~/i" * 
+rename "s/^BHH(-|_| )/BeefcakeHunter~~/i" * 
 
 # BD	->	ButchDixon~~
 # BDX	->	ButchDixon~~
-rename "s/^BD(-|_)/ButchDixon~~/" * 
-rename "s/^BDX(-|_)/ButchDixon~~/" * 
+rename "s/^BD(-|_| )/ButchDixon~~/i" * 
+rename "s/^BDX(-|_| )/ButchDixon~~/i" * 
 
-# BF_	->	BearFilms~~
-rename "s/^BF(-|_)/BearFilms~~/" * 
+# BF	->	BearFilms~~
+rename "s/^BF(-|_| )/BearFilms~~/i" * 
 
-# BFC-	->	BreederFuckers~~
-rename "s/^BFC(-|_)/BreederFuckers~~/" * 
+# BFC	->	BreederFuckers~~
+rename "s/^BFC(-|_| )/BreederFuckers~~/i" * 
 
-# BMR-  ->	BreedMeRaw~~
-rename "s/^BMR(-|_)/BreedMeRaw~~/" * 
+# BMR  ->	BreedMeRaw~~
+rename "s/^BMR(-|_| )/BreedMeRaw~~/i" * 
 
-# BM-  ->	BlakeMason~~
-rename "s/^BM(-|_)/BlakeMason~~/" * 
+# BM  ->	BlakeMason~~
+rename "s/^BM(-|_| )/BlakeMason~~/i" * 
 
-# BRO-  ->	Bromo~~
-rename "s/^BRO(-|_)/Bromo~~/" * 
-rename "s/^BRM(-|_)/Bromo~~/" * 
-rename "s/^BROMO(-|_)/Bromo~~/" * 
-rename "s/^Bromo(-|_)/Bromo~~/" * 
+# BRO  ->	Bromo~~
+rename "s/^BRO(-|_| )/Bromo~~/i" * 
+rename "s/^BRM(-|_| )/Bromo~~/i" * 
+rename "s/^BROMO(-|_| )/Bromo~~/i" * 
 
 
-# BIE-	->	Biempire~~
-rename "s/^BIE(-|_)/Biempire~~/" * 
+# BIE	->	Biempire~~
+rename "s/^BIE(-|_| )/Biempire~~/i" * 
 
-# BLM-	->	BiLatinMen~~
-rename "s/^BLM(-|_)/BiLatinMen~~/" * 
+# BLM	->	BiLatinMen~~
+rename "s/^BLM(-|_| )/BiLatinMen~~/i" * 
 
-# BTH-	->	BarebackThatHole~~
-rename "s/^BTH(-|_)/BarebackThatHole~~/" * 
+# BTH	->	BarebackThatHole~~
+rename "s/^BTH(-|_| )/BarebackThatHole~~/i" * 
 
-# BV- 	->	BiaggiVideos~~
-rename "s/^BV(-|_)/BiaggiVideos~~/" * 
+# BV 	->	BiaggiVideos~~
+rename "s/^BV(-|_| )/BiaggiVideos~~/i" * 
 
 # BSB   ->	BrokeStraightBoys
-rename "s/^BSB(-|_)/BrokeStraightBoys~~/" * 
+rename "s/^BSB(-|_| )/BrokeStraightBoys~~/i" * 
+rename "s/^Broke *Straight *Boys( |-)/BrokeStraightBoys~~/i" * 
+
 rename "s/^brokestraightboys/brokestraightboystmp/" * 
-rename "s/^brokestraightboystmp/BrokeStraightBoys/" * 
-rename "s/^Broke Straight Boys( |-)/BrokeStraightBoys~~/" * 
-rename "s/^BrokeStraightBoys /BrokeStraightBoys~~/" * 
+rename "s/^brokestraightboystmp/BrokeStraightBoys/i" * 
 
-#BigBlue-    -> BigBlue~~
-rename "s/^BigBlue(-|_)/BigBlue~~/" * 
+#BigBlue    -> BigBlue
+rename "s/^BigBlue(-|_| )/BigBlue~~/i" * 
 
-#BigDaddy.com-  -> BigDaddy~~
-rename "s/^BigDaddy.com(-|_)/BigDaddy~~/" * 
+#BigDaddy.com  -> BigDaddy
+rename "s/^BigDaddy.com(-|_| )/BigDaddy~~/i" * 
 
 # BIR       ->  BreedItRaw
-rename "s/^BIR(-|_)/BreedItRaw~~/" BIR* 
+rename "s/^BIR(-|_| )/BreedItRaw~~/i" BIR* 
 
 
 
 
 # C ########################################
 
-# CC- 	->	ColbysCrew~~
-rename "s/^CC(-|_)/ColbysCrew~~/" * 
+# CC 	->	ColbysCrew
+rename "s/^CC(-|_| )/ColbysCrew~~/i" * 
 
 
-# CD- 	->	CollegeDudes~~
-rename "s/^CD(-|_)/CollegeDudes~~/" * 
+# CD 	->	CollegeDudes
+rename "s/^CD(-|_| )/CollegeDudes~~/i" * 
 
 
-# CID- 	->	ClubInfernoDungeon~~
-rename "s/^CID(-|_)/ClubInfernoDungeon~~/" * 
+# CID 	->	ClubInfernoDungeon
+rename "s/^CID(-|_| )/ClubInfernoDungeon~~/i" * 
 
 
-# CM- 	->	ChaosMen~~
-rename "s/^CM(-|_)/ChaosMen~~/" * 
+# CM 	->	ChaosMen
+rename "s/^CM(-|_| )/ChaosMen~~/i" * 
 
-# CSM- 	->	CockSureMen~~
-rename "s/^CSM(-|_)/CockSureMen~~/" * 
+# CSM 	->	CockSureMen
+rename "s/^CSM(-|_| )/CockSureMen~~/i" * 
 
 
-# C1R   ->	C1R~~
-rename "s/^C1R(-|_| )/C1R~~/" * 
-rename "s/^C1R.com(-|_| )/C1R~~/" * 
-rename "s/^c1r.com(-|_| )/C1R~~/" * 
-rename "s/^Catalina(-|_| |~~)/C1R~~/" * 
-
+# C1R   ->	C1R
+rename "s/^C1R(.com)*(-|_| )/C1R~~/i" * 
+rename "s/^Catalina(-|_| |~~)/C1R~~/i" * 
 
 # CB    ->  CockyBoys
-rename "s/^CB(-|_| )/CockyBoys~~/" * 
+rename "s/^CB(-|_| )/CockyBoys~~/i" * 
 
 #CPM    -> CumPigMen
-rename "s/^CPM(-|_| )/CumPigMen~~/" CPM* 
+rename "s/^CPM(-|_| )/CumPigMen~~/i" CPM* 
 
 
 
@@ -182,14 +178,14 @@ rename "s/^CPM(-|_| )/CumPigMen~~/" CPM*
 
 # D ########################################
 
-# DAXT- 	->	DarkAlleyXT~~
-rename "s/^DAXT(-|_)/DarkAlleyXT~~/" * 
+# DAXT 	->	DarkAlleyXT
+rename "s/^DAXT(-|_| )/DarkAlleyXT~~/i" * 
 
-# DF-	->	DominicFord~~
-rename "s/^DF(-|_)/DominicFord~~/" * 
+# DF	->	DominicFord
+rename "s/^DF(-|_| )/DominicFord~~/i" * 
 
-# DO-	->	DeviantOtter~~
-rename "s/^DO(-|_)/DeviantOtter~~/" * 
+# DO	->	DeviantOtter
+rename "s/^DO(-|_| )/DeviantOtter~~/i" * 
 
 
 
@@ -198,11 +194,11 @@ rename "s/^DO(-|_)/DeviantOtter~~/" *
 
 # E ########################################
 
-# EBD-	->	ExtraBigDicks~~
-rename "s/^EBD(-|_)/ExtraBigDicks~~/" * 
+# EBD	->	ExtraBigDicks
+rename "s/^EBD(-|_| )/ExtraBigDicks~~/i" * 
 
-# EV-	->	EricVideos~~
-rename "s/^EV(-|_)/EricVideos~~/" * 
+# EV	->	EricVideos
+rename "s/^EV(-|_| )/EricVideos~~/i" * 
 
 
 
@@ -210,11 +206,11 @@ rename "s/^EV(-|_)/EricVideos~~/" *
 
 # F ########################################
 
-# FM-	->	FuckerMate~~
-rename "s/^FM(-|_)/FuckerMate~~/" * 
+# FM	->	FuckerMate
+rename "s/^FM(-|_| )/FuckerMate~~/i" * 
 
-# FD-	->	FrenchDudes~~
-rename "s/^FD(-|_)/FrenchDudes~~/" * 
+# FD	->	FrenchDudes
+rename "s/^FD(-|_| )/FrenchDudes~~/i" * 
 
 
 
@@ -222,52 +218,47 @@ rename "s/^FD(-|_)/FrenchDudes~~/" *
 
 # G ########################################
 
-# GB-	->	GayBone~~
-rename "s/^GB(-|_)/GayBone~~/" * 
+# GB	->	GayBone
+rename "s/^GB(-|_| )/GayBone~~/i" * 
 
-# GR-	->	GayRoom~~
-rename "s/^GR(-|_)/GayRoom~~/" * 
-rename "s/^gayroom(-|_)/GayRoom~~/" gay* 
-rename "s/^(g|G)ayRoom(-|_| )/GayRoom~~/" * 
+# GR	->	GayRoom
+rename "s/^GR(-|_| )/GayRoom~~/i" * 
+rename "s/^gayroom(-|_| )/GayRoom~~/i" * 
 
-# GH-	->	GayHoopla~~
-rename "s/^GH(-|_)/GayHoopla~~/" * 
+# GH	->	GayHoopla
+rename "s/^GH(-|_| )/GayHoopla~~/i" * 
 
 # Gay Patrol    ->  GayPatrol
-rename "s/^Gay Patrol(-|_| )/GayPatrol~~/" Gay* 
-rename "s/^GayPatrol(-|_| )/GayPatrol~~/" Gay* 
-rename "s/^GayPatrol.com(-|_| )/GayPatrol~~/" Gay* 
+rename "s/^Gay *Patrol(.com)*(-|_| )/GayPatrol~~/i" * 
 
-# gaypawn.com   GayPawn
-rename "s/^gaypawn.com(-|_| )/GayPawn~~/" gaypawn* 
+# gaypawn.com   ->  GayPawn
+rename "s/^gaypawn.com(-|_| )/GayPawn~~/i" gaypawn* 
 
 
 
 
 # H ########################################
 
-# HAR-	->	HairyAndRaw~~
-rename "s/^HAR(-|_)/HairyAndRaw~~/" * 
+# HAR	->	HairyAndRaw
+rename "s/^HAR(-|_| )/HairyAndRaw~~/i" * 
 
-# HBL-	->	HardBritLads~~
-rename "s/^HBL(-|_)/HardBritLads~~/" * 
-rename "s/^HardBritLads(-|_)/HardBritLads~~/" HardBritLads* 
-rename "s/^HardBritLads.com(-|_)/HardBritLads~~/" HardBritLads* 
-rename "s/^Hard Brit Lads(-|_)/HardBritLads~~/" Hard* 
+# HBL	->	HardBritLads
+rename "s/^HBL(-|_| )/HardBritLads~~/i" * 
+rename "s/^Hard *Brit *Lads(.com)*(-|_| )/HardBritLads~~/i" * 
 
-# HH-	->	HotHouse~~
-rename "s/^HH(-|_)/HotHouse~~/" * 
+# HH	->	HotHouse
+rename "s/^HH(-|_| )/HotHouse~~/i" * 
 
-# HK-	->	HardKinks~~
-rename "s/^HK(-|_)/HardKinks~~/" * 
-rename "s/^Hard Kinks(-|_)/HardKinks~~/" * 
+# HK	->	HardKinks
+rename "s/^HK(-|_| )/HardKinks~~/i" * 
+rename "s/^Hard *Kinks(-|_| )/HardKinks~~/i" * 
 
 
 
 
 # I ########################################
-# IM-	->	IconMale~~
-rename "s/^IM(-|_)/IconMale~~/" * 
+# IM	->	IconMale
+rename "s/^IM(-|_| )/IconMale~~/i" * 
 
 
 
@@ -275,8 +266,8 @@ rename "s/^IM(-|_)/IconMale~~/" *
 
 # K ########################################
 
-# KB-	->	KristenBjorn~~
-rename "s/^KB(-|_)/KristenBjorn~~/" * 
+# KB	->	KristenBjorn
+rename "s/^KB(-|_| )/KristenBjorn~~/i" * 
 
 
 
@@ -284,22 +275,18 @@ rename "s/^KB(-|_)/KristenBjorn~~/" *
 
 # L ########################################
 
-# LE-	->	LucasEntertainment~~
-rename "s/^LE(-|_)/LucasEntertainment~~/" * 
+# LE	->	LucasEntertainment
+rename "s/^LE(-|_| )/LucasEntertainment~~/i" * 
 
-# LM-	->	LegendMen~~
-rename "s/^LM(-|_)/LegendMen~~/" * 
-rename "s/^LegendMen(_|-| |.com)/LegendMen~~/" * 
-rename "s/^LEGENDMEN(_|-| |.com)/LegendMen~~/" * 
+# LM	->	LegendMen
+rename "s/^LM(-|_| )/LegendMen~~/i" * 
+rename "s/^LegendMen(.com)*(_|-| )/LegendMen~~/i" * 
 
 rename "s/^legendmen/legendmentmp/" * 
-rename "s/^legendmentmp/LegendMen/" * 
+rename "s/^legendmentmp/LegendMen/i" * 
 
-rename "s/~~LM( |_)/~~/" *
-
-# LR-	->	LucasRaunch~~
-rename "s/^LR(-|_)/LucasRaunch~~/" * 
-rename "s/^lr(-|_)/LucasRaunch~~/" * 
+# LR	->	LucasRaunch
+rename "s/^LR(-|_| )/LucasRaunch~~/i" * 
 
 
 
@@ -307,88 +294,86 @@ rename "s/^lr(-|_)/LucasRaunch~~/" *
 
 # T ########################################
 
-# TF-	->	TimFuck~~
-rename "s/^TF(-|_)/TimFuck~~/" * 
+# TF	->	TimFuck
+rename "s/^TF(-|_| )/TimFuck~~/i" * 
 
-# TM-	->	TitanMen~~
-rename "s/^TM(-|_)/TitanMen~~/" * 
+# TM	->	TitanMen
+rename "s/^TM(-|_| )/TitanMen~~/i" * 
 
-# TS-	->	TimSuck~~
-rename "s/^TS(-|_)/TimSuck~~/" * 
+# TS	->	TimSuck
+rename "s/^TS(-|_| )/TimSuck~~/i" * 
 
-# TT-	->	TimTales~~
-rename "s/^TT(-|_)/TimTales~~/" * 
+# TT	->	TimTales
+rename "s/^TT(-|_| )/TimTales~~/i" * 
 
 
 
 
 # R ########################################
 
-# RFC-	->	RawFuckClub~~
-rename "s/^RFC(-|_)/RawFuckClub~~/" * 
+# RFC	->	RawFuckClub
+rename "s/^RFC(-|_| )/RawFuckClub~~/i" * 
 
-# RS-	->	RagingStallion~~
-rename "s/^RS(-|_)/RagingStallion~~/" * 
+# RS	->	RagingStallion
+rename "s/^RS(-|_| )/RagingStallion~~/i" * 
 
-# RAR-	->	RawAndRough~~
-rename "s/^RAR(-|_)/RawAndRough~~/" * 
-rename "s/^Raw (A|a)nd Rough(-|_| )/RawAndRough~~/" * 
-rename "s/^rawandrough.com/RawAndRough/" * 
+# RAR	->	RawAndRough
+rename "s/^RAR(-|_| )/RawAndRough~~/i" * 
+rename "s/^Raw *And *Rough(.com)*(-|_| )/RawAndRough~~/i" * 
 
 # RVD   -> RobertVanDamme
-rename "s/^RVD(-|_)/RobertVanDamme~~/" * 
+rename "s/^RVD(-|_| )/RobertVanDamme~~/i" * 
 
 
-# rawcastings-	->	RawCastings~~
-rename "s/^Raw Castings/RawCastings/" * 
-rename "s/^rawCastings(-|_)/RawCastings~~/" rawCastings* 
+# rawcastings	->	RawCastings
+rename "s/^Raw *Castings/RawCastings/i" * 
 
 rename "s/^rawcastings/rawcastingstmp/" * 
-rename "s/^rawcastingstmp/RawCastings/" * 
+rename "s/^rawcastingstmp/RawCastings/i" * 
 
 
 
 
 # P ########################################
 
-# PS-	->	PrideStudios~~
-rename "s/^PS(-|_)/PrideStudios~~/" * 
+# PS	->	PrideStudios
+rename "s/^PS(-|_| )/PrideStudios~~/i" * 
 
-# PM	->	ParagonMen~~
-rename "s/^PM(-|_| )/ParagonMen~~/" PM* 
-rename "s/^ParagonMen.com(-|_| )/ParagonMen~~/" ParagonMen* 
+# PM	->	ParagonMen
+rename "s/^PM(-|_| )/ParagonMen~~/i" PM* 
+rename "s/^ParagonMen(-|_| )/ParagonMen~~/i" * 
 
-# ParoleHim.com   ->    ParoleHim~~
-rename "s/ParoleHim.com-/ParoleHim~~/" ParoleHim*
-rename "s/ParoleHim(-|_)/ParoleHim~~/" ParoleHim*
+# ParoleHim.com   ->    ParoleHim
+rename "s/ParoleHim(.com)*(-|_| )/ParoleHim~~/i" *
 
 # Powermen  ->  PowerMen
-rename "s/Powermen(-|_| )/PowerMen~~/" Powermen*
-rename "s/Powermen.com(-|_| )/PowerMen~~/" Powermen*
+rename "s/Powermen(.com)*(-|_| )/PowerMen~~/i" *
 
 # Pride Studios ->  PrideStudios
-rename "s/PS(-|_| )/PrideStudios~~/" PS*
-rename "s/Pride Studios(-|_| )/PrideStudios~~/" Pride*
-rename "s/Pridestudios.com(-|_| )/PrideStudios~~/" Pride*
-rename "s/PrideStudios~~PS //" Pride*
+rename "s/PS(-|_| )/PrideStudios~~/i" *
+rename "s/Pride *Studios(.com)*(-|_| )/PrideStudios~~/i" *
 
 
 # Q ########################################
 
+
+
+
+
+
 # R ########################################
 
-# RawJoxxx-  ->  RawJoxxx~~
-rename "s/RawJoxxx(-|_| )/RawJoxxx-~~/" Raw*
-rename "s/RawJOXXX(-|_| )/RawJoxxx-~~/" Raw*
+# RawJoxxx  ->  RawJoxxx
+rename "s/RawJoxxx(-|_| )/RawJoxxx~~/i" *
 
 # Raw Edge Video    ->  RawEdgeVideo
-rename "s/Raw Edge Video(-|_| )/RawEdgeVideo~~/" Raw*
+rename "s/Raw *Edge *Video(-|_| )/RawEdgeVideo~~/i" *
 
 
 # S ########################################
 
-# SC-	->	SeanCody~~
-rename "s/^SC(-|_)/SeanCody~~/" * 
+# SC	->	SeanCody
+rename "s/^SC(-|_| )/SeanCody~~/i" * 
 
 
 
@@ -396,71 +381,63 @@ rename "s/^SC(-|_)/SeanCody~~/" *
 
 # M ########################################
 
-# MOE-	->	MenOnEdge~~
-rename "s/^MOE(-|_)/MenOnEdge~~/" * 
+# MOE	->	MenOnEdge
+rename "s/^MOE(-|_| )/MenOnEdge~~/i" * 
 
-# MO-	->	MeninosOnline~~
-rename "s/^MO(-|_)/MeninosOnline~~/" * 
+# MO	->	MeninosOnline
+rename "s/^MO(-|_| )/MeninosOnline~~/i" * 
 
-# MM-	->	MaverickMen~~
-rename "s/^MM(-|_)/MaverickMen~~/" * 
-rename "s/^Maverick Men(-|_| )/MaverickMen~~/" * 
-rename "s/^MaverickMen(-|_)/MaverickMen~~/" * 
-rename "s/^maverickmen.com(-|_)/MaverickMen~~/" maveric* 
+# MM	->	MaverickMen
+rename "s/^MM(-|_| )/MaverickMen~~/i" * 
+rename "s/^Maverick *Men(.com)*(-|_| )/MaverickMen~~/i" * 
 
 
-# MO30-	->	MenOver30~~
-rename "s/^MO30(-|_)/MenOver30~~/" * 
-rename "s/^Mo30(-|_)/MenOver30~~/" * 
+# MO30	->	MenOver30
+rename "s/^MO30(-|_| )/MenOver30~~/i" * 
 
-# MDM-	->	Mundomais~~
-rename "s/^MDM(-|_)/Mundomais~~/" * 
+# MDM	->	Mundomais
+rename "s/^MDM(-|_| )/Mundomais~~/i" * 
 
-# MBZ-	->	MormonBoyz~~
-rename "s/^MMB(-|_)/MormonBoyz~~/" * 
-rename "s/^MBZ(-|_)/MormonBoyz~~/" * 
+# MBZ	->	MormonBoyz
+rename "s/^MMB(-|_| )/MormonBoyz~~/i" * 
+rename "s/^MBZ(-|_| )/MormonBoyz~~/i" * 
 
-# MAP-	->	MenAtPlay~~
-rename "s/^MAP(-|_)/MenAtPlay~~/" * 
+# MAP	->	MenAtPlay
+rename "s/^MAP(-|_| )/MenAtPlay~~/i" * 
 
-# MEN-	->	Men~~
-rename "s/^MEN(-|_|~~)/MENTMP~~/" * 
-rename "s/^MENTMP(-|_|~~)/Men~~/" * 
+# MEN	->	Men
+rename "s/^Men(-|_| )/Men~~/i" * 
 
-# M10I-	->	My10Inches~~
-rename "s/^M10I(-|_)/My10Inches~~/" * 
-rename "s/^M10(-|_)/My10Inches~~/" * 
-rename "s/^MY10(-|_)/My10Inches~~/" * 
+rename "s/^MEN~~/MENtmp~~/" * 
+rename "s/^MENtmp~~/Men~~/i" * 
+
+# M10I	->	My10Inches
+rename "s/^MY*10I*(-|_| )/My10Inches~~/i" * 
 
 # MF    ->  MachoFuckers
-rename "s/^MF(-|_)/MachoFuckers~~/" * 
-rename "s/^MachoFucker(-|_| )/MachoFuckers~~/" Macho* 
-rename "s/^Machofucker(-|_| )/MachoFuckers~~/" Macho* 
+rename "s/^MF(-|_| )/MachoFuckers~~/i" * 
+rename "s/^MachoFucker(-|_| )/MachoFuckers~~/i" * 
 
 # MFC   ->  MachoFactory
-rename "s/^MFC(-|_)/MachoFactory~~/" * 
-rename "s/^MachoFactory(-|_)/MachoFactory~~/" Macho* 
-rename "s/^Machofactory(-|_)/MachoFactory~~/" Macho* 
+rename "s/^MFC(-|_| )/MachoFactory~~/i" * 
+rename "s/^MachoFactory(-|_| )/MachoFactory~~/i" * 
 
-# malephysical.co.uk MalePhysical
-rename "s/^malephysical.co.uk(-|_)/MalePhysical~~/" malephysica* 
+# malephysical.co.uk    ->  MalePhysical
+rename "s/^malephysical(.co.uk)*(-|_| )/MalePhysical~~/i" * 
 
 # Male Reality- -> MaleReality~~
-rename "s/^Male Reality(-|_| |~~)/MaleReality~~/" Male* 
-rename "s/^MaleReality.com(-|_| |~~)/MaleReality~~/" Male* 
+rename "s/^Male *Reality(.com)*(-|_| )/MaleReality~~/i" * 
 
-# MR    ->  ManRoyale~~
-rename "s/^MR(-|_| |~~)/ManRoyale~~/" MR* 
-rename "s/^ManRoyale(-|_| |~~)/ManRoyale~~/" Man* 
+# MR    ->  ManRoyale
+rename "s/^MR(-|_| |~~)/ManRoyale~~/i" * 
+rename "s/^ManRoyale(-|_| )/ManRoyale~~/i" * 
 
-# ManHandled    ManHandled~~
-rename "s/^ManHandled(-|_| |~~)/ManHandled~~/" Man* 
-rename "s/^Manhandled(-|_| |~~)/ManHandled~~/" Man* 
+# ManHandled   ->   ManHandled~~
+rename "s/^ManHandled(-|_| )/ManHandled~~/i" * 
 
-# massivestudio MassiveStudio
-rename "s/^massivestudio(-|_| |~~)/MassiveStudio~~/" mass* 
-rename "s/^massive-studio(-|_| |~~)/MassiveStudio~~/" massi* 
-rename "s/^Massive(-|_| |~~)/MassiveStudio~~/" Mass* 
+# massivestudio     ->  MassiveStudio
+rename "s/^Massive(-|_| |~~)/MassiveStudio~~/i" * 
+rename "s/^massive-*studio(-|_| |~~)/MassiveStudio~~/i" * 
 
 
 
@@ -472,28 +449,21 @@ rename "s/^Massive(-|_| |~~)/MassiveStudio~~/" Mass*
 # N ########################################
 
 # ND    ->  NastyDaddy
-rename "s/^ND(-|_)/NastyDaddy~~/" * 
-rename "s/^NastyDaddy(-|_| )/NastyDaddy~~/" * 
-rename "s/^nastydaddy(-|_| )/NastyDaddy~~/" * 
-rename "s/^NastyDaddy.com(-|_| )/NastyDaddy~~/" * 
-rename "s/^Nasty Daddy/NastyDaddy/" * 
+rename "s/^ND(-|_| )/NastyDaddy~~/i" * 
+rename "s/^Nasty *Daddy(.com)*(-|_| )/NastyDaddy~~/i" * 
 
-# NakedKombat    ->  NakedKombat~~
-rename "s/^NakedKombat(-|_| )/NakedKombat~~/" * 
-rename "s/^nakedkombat.com(-|_| )/NakedKombat~~/" * 
-rename "s/^NakedKombat.com(-|_| )/NakedKombat~~/" * 
+# NakedKombat    ->  NakedKombat
+rename "s/^nakedkombat(.com)*(-|_| )/NakedKombat~~/i" * 
 
-#Natural Born Breeders- NaturalBornBreeders~~
-rename "s/^Natural Born Breeders(-|_| )/NaturalBornBreeders~~/" * 
-rename "s/^NaturalBornBreeders(-|_| )/NaturalBornBreeders~~/" * 
-rename "s/^naturalbornbreeders.com(-|_| )/NaturalBornBreeders~~/" * 
+#Natural Born Breeders  ->  NaturalBornBreeders
+rename "s/^natural *born *breeders(.com)*(-|_| )/NaturalBornBreeders~~/i" * 
 
-# NDB    -> NextDoorStudios 
-rename "s/^NDS(-|_)/NextDoorStudios~~/" * 
-rename "s/^NDB(-|_)/NextDoorStudios~~/" * 
+# NDB    ->     NextDoorStudios 
+rename "s/^NDS(-|_| )/NextDoorStudios~~/i" * 
+rename "s/^NDB(-|_| )/NextDoorStudios~~/i" * 
 
 # NS    ->  NakedSword
-rename "s/^NS(-|_)/NakedSword~~/" * 
+rename "s/^NS(-|_| )/NakedSword~~/i" * 
 
 
 
@@ -502,54 +472,44 @@ rename "s/^NS(-|_)/NakedSword~~/" *
 
 # J ########################################
 
-# JZ- 	-> JimmyZ~~
-rename "s/^JZ(-|_)/JimmyZ~~/" * 
+# JZ 	-> JimmyZ
+rename "s/^JZ(-|_| )/JimmyZ~~/i" * 
 
-# JS- 	-> JalifStudio~~
-rename "s/^JS(-|_)/JalifStudio~~/" * 
+# JS 	-> JalifStudio
+rename "s/^JS(-|_| )/JalifStudio~~/i" * 
 
 # JSL   -> JasonSparksLive
-rename "s/^JSL(-|_)/JasonSparksLive~~/" * 
+rename "s/^JSL(-|_| )/JasonSparksLive~~/i" * 
 
 # JSV   ->  JoeSchmoeVideos 
-rename "s/^JSV(-|_| )/JoeSchmoeVideos~~/" * 
+rename "s/^JSV(-|_| )/JoeSchmoeVideos~~/i" * 
 
-# JakeCruise.com-  -> JakeCruise~~
-rename "s/^JakeCruise.com(-|_| )/JakeCruise~~/" JakeCruis* 
-rename "s/^Jake Cruise(-|_| )/JakeCruise~~/" Jake* 
-rename "s/^Jake Cruise/JakeCruise/" Jake* 
+# JakeCruise.com  -> JakeCruise
+rename "s/^Jake *Cruise(.com)*(-|_| )/JakeCruise~~/i" * 
 
-# JuicyBoys-    JuicyBoys~~
-rename "s/^JuicyBoys(-|_| )/JuicyBoys~~/" JuicyBoys* 
+# JuicyBoys     ->    JuicyBoys
+rename "s/^JuicyBoys(-|_| )/JuicyBoys~~/i" * 
 
 
 # U ########################################
 
-# UKHJ- 	-> UKHotJocks~~
-rename "s/^UKHJ(-|_)/UKHotJocks~~/" * 
+# UKHJ 	-> UKHotJocks
+rename "s/^UKHJ(-|_| )/UKHotJocks~~/i" * 
 
 # UK Naked Men -> UKNakedMen
-rename "s/^UKNM(-|_| )/UKNakedMen~~/" * 
-rename "s/^UKNakedMen(-|_| )/UKNakedMen~~/" * 
-rename "s/^UK Naked Men/UKNakedMen/" * 
+rename "s/^UKNM(-|_| )/UKNakedMen~~/i" * 
+rename "s/^UK *Naked *Men(-|_| )/UKNakedMen~~/i" * 
 
 
 
 
 # clear up #################################
 
-# _-_  -> ''
-rename "s/_-_/-/" * 
-rename "s/-_/-/" * 
-rename "s/_-/-/" * 
-
 # ~~~~ -> ~~
-rename "s/~~(~~|-|_)/~~/" * 
-rename "s/-~~~~/~~/" * 
-rename "s/-~~/~~/" * 
+rename "s/-*(~~)*~~/~~/i" * 
 
 # 清理括号
-rename "s/(\(|\)|\[|\]|\{|\})//" *
+rename "s/(\(|\)|\[|\]|\{|\})//i" *
 
 
 
