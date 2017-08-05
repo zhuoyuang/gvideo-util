@@ -189,6 +189,8 @@ rename "s/^DF(-|_| )/DominicFord~~/i" *
 # DO	->	DeviantOtter
 rename "s/^DO(-|_| )/DeviantOtter~~/i" * 
 
+# DRW	->  DudesRaw	
+rename "s/^DRW(-|_| )/DudesRaw~~/i" * 
 
 
 
@@ -308,6 +310,9 @@ rename "s/^TS(-|_| )/TimSuck~~/i" *
 # TT	->	TimTales
 rename "s/^TT(-|_| )/TimTales~~/i" * 
 
+# TIM   -> TreasureIslandMedia
+rename "s/^TIM(-|_| )/TreasureIslandMedia~~/i" * 
+
 
 
 
@@ -333,6 +338,11 @@ rename "s/^Raw *Castings/RawCastings/i" *
 rename "s/^rawcastings/rawcastingstmp/" * 
 rename "s/^rawcastingstmp/RawCastings/i" * 
 
+# RR    ->  RoganRichards
+rename "s/^RR(-|_| )/RoganRichards~~/i" * 
+
+# RWS   ->  RawStrokes
+rename "s/^RWS(-|_| )/RawStrokes~~/i" * 
 
 
 
@@ -376,6 +386,9 @@ rename "s/Raw *Edge *Video(-|_| )/RawEdgeVideo~~/i" *
 
 # SC	->	SeanCody
 rename "s/^SC(-|_| )/SeanCody~~/i" * 
+
+# STH   ->  Str8Hell
+rename "s/^STH(-|_| )/Str8Hell~~/i" * 
 
 
 
@@ -441,7 +454,8 @@ rename "s/^ManHandled(-|_| )/ManHandled~~/i" *
 rename "s/^Massive(-|_| |~~)/MassiveStudio~~/i" * 
 rename "s/^massive-*studio(-|_| |~~)/MassiveStudio~~/i" * 
 
-
+# MVM   ->  MaVerickMen
+rename "s/^MVM(-|_| |~~)/MaVerickMen~~/i" * 
 
 
 
