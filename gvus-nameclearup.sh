@@ -91,6 +91,10 @@ rename "s/^BHH(-|_| )/BeefcakeHunter~~/i" *
 rename "s/^BD(-|_| )/ButchDixon~~/i" * 
 rename "s/^BDX(-|_| )/ButchDixon~~/i" * 
 
+#Butch Bear ->  ButchBear
+rename "s/^Butch Bear(-|_| )/ButchBear~~/i" * 
+
+
 # BF	->	BearFilms~~
 rename "s/^BRF(-|_| )/BearFilms~~/i" * 
 rename "s/^BF(-|_| )/BearFilms~~/i" * 
@@ -191,6 +195,11 @@ rename "s/^DO(-|_| )/DeviantOtter~~/i" *
 
 # DRW	->  DudesRaw	
 rename "s/^DRW(-|_| )/DudesRaw~~/i" * 
+
+# DM    ->  DragonMedia
+rename "s/^DM(-|_| )/DragonMedia~~/i" * 
+rename "s/^DragonMedia (-|_| )/DragonMedia~~/i" * 
+
 
 
 
@@ -346,6 +355,18 @@ rename "s/^RWS(-|_| )/RawStrokes~~/i" *
 
 
 
+
+
+# S ########################################
+
+# SX Video  ->  SxVideo
+rename "s/^SX *Video *(-|_| )/SxVideo~~/i" * 
+
+
+
+
+
+
 # P ########################################
 
 # PS	->	PrideStudios
@@ -365,6 +386,9 @@ rename "s/Powermen(.com)*(-|_| )/PowerMen~~/i" *
 rename "s/PS(-|_| )/PrideStudios~~/i" *
 rename "s/Pride *Studios(.com)*(-|_| )/PrideStudios~~/i" *
 
+# PantheonBear  ->  PantheonBear
+
+rename "s/PantheonBear (-|_| )/PantheonBear~~/i" *
 
 # Q ########################################
 
