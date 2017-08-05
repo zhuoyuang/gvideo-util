@@ -105,9 +105,9 @@ rename "s/^BM(-|_)/BlakeMason~~/" *
 
 # BRO-  ->	Bromo~~
 rename "s/^BRO(-|_)/Bromo~~/" * 
-
-# BROMO-	->	Bromo~~
+rename "s/^BRM(-|_)/Bromo~~/" * 
 rename "s/^BROMO(-|_)/Bromo~~/" * 
+rename "s/^Bromo(-|_)/Bromo~~/" * 
 
 
 # BIE-	->	Biempire~~
@@ -299,6 +299,7 @@ rename "s/~~LM( |_)/~~/" *
 
 # LR-	->	LucasRaunch~~
 rename "s/^LR(-|_)/LucasRaunch~~/" * 
+rename "s/^lr(-|_)/LucasRaunch~~/" * 
 
 
 
@@ -410,6 +411,7 @@ rename "s/^maverickmen.com(-|_)/MaverickMen~~/" maveric*
 
 # MO30-	->	MenOver30~~
 rename "s/^MO30(-|_)/MenOver30~~/" * 
+rename "s/^Mo30(-|_)/MenOver30~~/" * 
 
 # MDM-	->	Mundomais~~
 rename "s/^MDM(-|_)/Mundomais~~/" * 
