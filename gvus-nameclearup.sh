@@ -92,6 +92,7 @@ rename "s/^BD(-|_| )/ButchDixon~~/i" *
 rename "s/^BDX(-|_| )/ButchDixon~~/i" * 
 
 # BF	->	BearFilms~~
+rename "s/^BRF(-|_| )/BearFilms~~/i" * 
 rename "s/^BF(-|_| )/BearFilms~~/i" * 
 
 # BFC	->	BreederFuckers~~
@@ -144,6 +145,7 @@ rename "s/^BIR(-|_| )/BreedItRaw~~/i" BIR*
 
 # CC 	->	ColbysCrew
 rename "s/^CC(-|_| )/ColbysCrew~~/i" * 
+rename "s/^CBC(-|_| )/ColbysCrew~~/i" * 
 
 
 # CD 	->	CollegeDudes
@@ -506,7 +508,7 @@ rename "s/^UK *Naked *Men(-|_| )/UKNakedMen~~/i" *
 # clear up #################################
 
 # ~~~~ -> ~~
-rename "s/-*(~~)*~~/~~/i" * 
+rename "s/-*(~~)*~~-*_*~~*/~~/i" * 
 
 # 清理括号
 rename "s/(\(|\)|\[|\]|\{|\})//i" *
