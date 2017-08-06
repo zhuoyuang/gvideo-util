@@ -94,7 +94,6 @@ rename "s/^BDX(-|_| )/ButchDixon~~/i" *
 #Butch Bear ->  ButchBear
 rename "s/^Butch Bear(-|_| )/ButchBear~~/i" * 
 
-
 # BF	->	BearFilms~~
 rename "s/^BRF(-|_| )/BearFilms~~/i" * 
 rename "s/^BF(-|_| )/BearFilms~~/i" * 
@@ -112,7 +111,6 @@ rename "s/^BM(-|_| )/BlakeMason~~/i" *
 rename "s/^BRO(-|_| )/Bromo~~/i" * 
 rename "s/^BRM(-|_| )/Bromo~~/i" * 
 rename "s/^BROMO(-|_| )/Bromo~~/i" * 
-
 
 # BIE	->	Biempire~~
 rename "s/^BIE(-|_| )/Biempire~~/i" * 
@@ -140,7 +138,10 @@ rename "s/^BigBlue(-|_| )/BigBlue~~/i" *
 rename "s/^BigDaddy.com(-|_| )/BigDaddy~~/i" * 
 
 # BIR       ->  BreedItRaw
-rename "s/^BIR(-|_| )/BreedItRaw~~/i" BIR* 
+rename "s/^BIR(-|_| )/BreedItRaw~~/i" * 
+
+# BLG       ->BrokeLatinoGuys
+rename "s/^BLG(-|_| )/BrokeLatinoGuys~~/i" * 
 
 
 
@@ -174,8 +175,11 @@ rename "s/^Catalina(-|_| |~~)/C1R~~/i" *
 # CB    ->  CockyBoys
 rename "s/^CB(-|_| )/CockyBoys~~/i" * 
 
-#CPM    -> CumPigMen
-rename "s/^CPM(-|_| )/CumPigMen~~/i" CPM* 
+# CPM    -> CumPigMen
+rename "s/^CPM(-|_| )/CumPigMen~~/i" * 
+
+# CF    ->  CorbinFisher
+rename "s/^CF(-|_| )/CorbinFisher~~/i" * 
 
 
 
@@ -242,6 +246,7 @@ rename "s/^gayroom(-|_| )/GayRoom~~/i" *
 rename "s/^GH(-|_| )/GayHoopla~~/i" * 
 
 # Gay Patrol    ->  GayPatrol
+rename "s/^GP(-|_| )/GayPatrol~~/i" * 
 rename "s/^Gay *Patrol(.com)*(-|_| )/GayPatrol~~/i" * 
 
 # gaypawn.com   ->  GayPawn
@@ -340,7 +345,6 @@ rename "s/^Raw *And *Rough(.com)*(-|_| )/RawAndRough~~/i" *
 # RVD   -> RobertVanDamme
 rename "s/^RVD(-|_| )/RobertVanDamme~~/i" * 
 
-
 # rawcastings	->	RawCastings
 rename "s/^Raw *Castings/RawCastings/i" * 
 
@@ -353,6 +357,8 @@ rename "s/^RR(-|_| )/RoganRichards~~/i" *
 # RWS   ->  RawStrokes
 rename "s/^RWS(-|_| )/RawStrokes~~/i" * 
 
+# RD    ->  RealityDudes
+rename "s/^RD(-|_| )/RealityDudes~~/i" * 
 
 
 
@@ -458,6 +464,7 @@ rename "s/^MF(-|_| )/MachoFuckers~~/i" *
 rename "s/^MachoFucker(-|_| )/MachoFuckers~~/i" * 
 
 # MFC   ->  MachoFactory
+rename "s/^MFR(-|_| )/MachoFactory~~/i" * 
 rename "s/^MFC(-|_| )/MachoFactory~~/i" * 
 rename "s/^MachoFactory(-|_| )/MachoFactory~~/i" * 
 
@@ -499,6 +506,7 @@ rename "s/^nakedkombat(.com)*(-|_| )/NakedKombat~~/i" *
 rename "s/^natural *born *breeders(.com)*(-|_| )/NaturalBornBreeders~~/i" * 
 
 # NDB    ->     NextDoorStudios 
+rename "s/^NDO(-|_| )/NextDoorStudios~~/i" * 
 rename "s/^NDS(-|_| )/NextDoorStudios~~/i" * 
 rename "s/^NDB(-|_| )/NextDoorStudios~~/i" * 
 
