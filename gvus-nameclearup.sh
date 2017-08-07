@@ -49,7 +49,11 @@ rename "s/^3rdworldvideo(.com)*(-|_| )/3rdWorldVideo~~/i" *
 # A ########################################
 
 # Active Duty   -> ActiveDuty
+rename "s/^AD(-|_| )/ActiveDuty~~/i" * 
 rename "s/^Active *Duty(-|_| )/ActiveDuty~~/i" * 
+
+# Arena Entertainment ->    ArenaEntertainment
+rename "s/^Arena *Entertainment(-|_| )/ArenaEntertainment~~/i" * 
 
 # All American Heroes   -> AllAmericanHeroes~~
 rename "s/^All *American *Heroes(-|_| )/AllAmericanHeroes~~/i" * 
@@ -85,6 +89,7 @@ rename "s/^BG(-|_| )/BoundGods~~/i" *
 
 # BBD	->	BlackBreeders~~
 rename "s/^BBD(-|_| )/BlackBreeders~~/i" * 
+rename "s/^BBreeders(-|_| )/BlackBreeders~~/i" * 
 
 # BCH	->	BeefcakeHunter~~
 # BHH	->	BeefcakeHunter~~
@@ -120,6 +125,7 @@ rename "s/^BROMO(-|_| )/Bromo~~/i" *
 
 # BIE	->	Biempire~~
 rename "s/^BIE(-|_| )/Biempire~~/i" * 
+rename "s/^Biempire(.com)*(-|_| |~~)/Biempire~~/i" * 
 
 # BLM	->	BiLatinMen~~
 rename "s/^BLM(-|_| )/BiLatinMen~~/i" * 
@@ -131,6 +137,7 @@ rename "s/^BBTH(-|_| )/BarebackThatHole~~/i" *
 
 # BV 	->	BiaggiVideos~~
 rename "s/^BV(-|_| )/BiaggiVideos~~/i" * 
+rename "s/^Biaggivideo(s)*(.com)*(-|_| )/BiaggiVideos~~/i" * 
 
 # BSB   ->	BrokeStraightBoys
 rename "s/^BSB(-|_| )/BrokeStraightBoys~~/i" * 
@@ -154,12 +161,49 @@ rename "s/^BLG(-|_| )/BrokeLatinoGuys~~/i" *
 # BAB   ->  BuffAndBound
 rename "s/^BAB(-|_| )/BuffAndBound~~/i" * 
 
-
 # BBTV  ->  BuffBoyzzTV
 rename "s/^BBTV(-|_| )/BuffBoyzzTV~~/i" * 
 
 # BRTX  ->  BareBackRTXXX
 rename "s/^BRTX(-|_| )/BareBackRTXXX~~/i" * 
+rename "s/^Bareback *RT *Media(-|_| )/BareBackRTXXX~~/i" * 
+rename "s/^Barebackrt(.com)*(-|_| |~~)/BareBackRTXXX~~/i" * 
+rename "s/^BarebackRTMedia(.com)*(-|_| |~~)/BareBackRTXXX~~/i" * 
+rename "s/^Barebackrtxxx(.com)*(-|_| |~~)/BareBackRTXXX~~/i" * 
+
+# Bacchus   ->  Bacchus
+rename "s/^Bacchus(-|_| )/Bacchus~~/i" * 
+
+# badpuppy.com  ->  Badpupp
+rename "s/^badpuppy(.com)*(-|_| )/Badpupp~~/i" * 
+
+# BaitBuddies   ->  BaitBuddies
+rename "s/^BaitBuddies(.com)*(-|_| )/BaitBuddies~~/i" * 
+
+# BaitBus.com   ->  BaitBus
+rename "s/^BaitBus(.com)*(-|_| |~~)/BaitBus~~/i" * 
+
+# Bareback Rookies  ->  BarebackRookies
+rename "s/^Bareback *Rookies(-|_| )/BarebackRookies~~/i" * 
+
+# BCP   ->  BarebackCumPics
+rename "s/^BCP(-|_| )/BarebackCumPics~~/i" * 
+
+# BearsFuckBoys.com ->  BearsFuckBoys
+rename "s/^BearsFuckBoys(.com)*(-|_| )/BearsFuckBoys~~/i" * 
+
+# Bentley Race  ->  BentleyRace
+rename "s/^Bentley *Race(.com)*(-|_| |~~)/BentleyRace~~/i" * 
+
+# bgeast.com    ->  BgEast
+rename "s/^bgeast(.com)*(-|_| |~~)/BgEast~~/i" * 
+
+# BodyProd  ->  BodyProd
+rename "s/^BodyProd(.com)*(-|_| |~~)/BodyProd~~/i" * 
+
+# ButtMachineBoys   ->  ButtMachineBoys
+rename "s/^ButtMachineBoys(.com)*(-|_| |~~)/ButtMachineBoys~~/i" * 
+
 
 
 
@@ -173,17 +217,15 @@ rename "s/^CBC(-|_| )/ColbysCrew~~/i" *
 # CD 	->	CollegeDudes
 rename "s/^CD(-|_| )/CollegeDudes~~/i" * 
 
-
 # CID 	->	ClubInfernoDungeon
 rename "s/^CID(-|_| )/ClubInfernoDungeon~~/i" * 
-
+rename "s/^Club *Inferno(Dungeon)*(.com)*(-|_| |~~)/ClubInfernoDungeon~~/i" * 
 
 # CM 	->	ChaosMen
 rename "s/^CM(-|_| )/ChaosMen~~/i" * 
 
 # CSM 	->	CockSureMen
 rename "s/^CSM(-|_| )/CockSureMen~~/i" * 
-
 
 # C1R   ->	C1R
 rename "s/^C1R(.com)*(-|_| )/C1R~~/i" * 
@@ -200,6 +242,42 @@ rename "s/^CF(-|_| )/CorbinFisher~~/i" *
 
 # CJS   ->  CJasonSparks
 rename "s/^CJS(-|_| )/CJasonSparks~~/i" * 
+
+# caesarworld.com   ->  caesarworld.com
+rename "s/^caesarworld(.com)*(-|_| )/CaesarWorld~~/i" * 
+
+# CassinelliMuscle.com ->   CassinelliMuscle.com~
+rename "s/^CassinelliMuscle(.com)*(-|_| |~~)/CassinelliMuscle~~/i" * 
+
+# CaStJo    ->  CaStJo
+rename "s/^CaStJo(.com)*(-|_| |~~)/CaStJo~~/i" * 
+
+# Cazzo Film    ->  CazzoFilm
+rename "s/^Cazzo *Film(.com)*(-|_| |~~)/CazzoFilm~~/i" * 
+
+# cazzoclub.com ->  cazzoclub.com
+rename "s/^cazzoclub(.com)*(-|_| |~~)/CazzoClub~~/i" * 
+
+# ch2   ->  CH2
+rename "s/^ch2(-|_| |~~)/CH2~~/i" * 
+
+# Channel 69 Video  ->  Channel69
+rename "s/^Channel *69 *(Video)*(-|_| |~~)/Channel69~~/i" * 
+
+# cmnm.net  ->  Cmnm
+rename "s/^cmnm(.net)*(-|_| |~~)/Cmnm~~/i" * 
+
+# Cock Virgins  ->  CockVirgins
+rename "s/^Cock *Virgins(-|_| |~~)/CockVirgins~~/i" * 
+
+# CollegeDudes  ->  CollegeDudes
+rename "s/^College *Dudes(.com)*(-|_| |~~)/CollegeDudes~~/i" * 
+
+# Cre8tive Juices   ->  Cre8tiveJuices
+rename "s/^Cre8tive *Juices(-|_| |~~)/Cre8tiveJuices~~/i" * 
+
+# CumpigMen.com ->  CumpigMen
+rename "s/^CumpigMen(.com)*(-|_| |~~)/CumpigMen~~/i" * 
 
 
 
@@ -232,6 +310,15 @@ rename "s/^DL(-|_| )/DylanLucas~~/i" *
 # DT    ->  DirtyTony
 rename "s/^DT(-|_| )/DirtyTony~~/i" * 
 
+# DaddyMugs.com ->  DaddyMugs
+rename "s/^DaddyMugs(.com)*(-|_| )/DaddyMugs~~/i" * 
+
+# Daddys Bondage Boys   ->  Daddys Bondage Boys
+rename "s/^Daddys *Bondage *Boys(-|_| )/DaddysBondageBoys~~/i" * 
+
+# dallasreeves.com  ->  DallasReeve
+rename "s/^dallasreeves(.com)*(-|_| )/DallasReeve~~/i" * 
+
 
 
 
@@ -244,6 +331,9 @@ rename "s/^EBD(-|_| )/ExtraBigDicks~~/i" *
 
 # EV	->	EricVideos
 rename "s/^EV(-|_| )/EricVideos~~/i" * 
+
+# EpicMale  ->  EpicMale
+rename "s/^EpicMale(-|_| )/EpicMale~~/i" * 
 
 
 
