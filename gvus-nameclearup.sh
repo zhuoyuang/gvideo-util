@@ -26,6 +26,7 @@ rename "s/~~[0-9]+/~~/i" *
 
 # ' - ' -> '-'
 rename "s/ *– */-/i" *
+rename "s/ *- */-/i" *
 
 # _-_  -> ''
 rename "s/_*-_*/-/i" * 
@@ -103,7 +104,7 @@ rename "s/^BDX(-|_| )/ButchDixon~~/i" *
 rename "s/^Butch Dixon(-|_| )/ButchDixon~~/i" * 
 
 #Butch Bear ->  ButchBear
-rename "s/^Butch Bear(-|_| )/ButchBear~~/i" * 
+rename "s/^Butch *Bear(-|_| )/ButchBear~~/i" * 
 
 # BF	->	BearFilms~~
 rename "s/^BRF(-|_| )/BearFilms~~/i" * 
@@ -279,6 +280,13 @@ rename "s/^Cre8tive *Juices(-|_| |~~)/Cre8tiveJuices~~/i" *
 # CumpigMen.com ->  CumpigMen
 rename "s/^CumpigMen(.com)*(-|_| |~~)/CumpigMen~~/i" * 
 
+# Cabin Fever   ->  CabinFever
+rename "s/^Cabin *Fever(-|_| |~~)/CabinFever~~/i" * 
+
+# Corbin Fisher ->  Corbin Fisher
+rename "s/^Corbin *Fisher(-|_| |~~)/CorbinFisher~~/i" * 
+
+
 
 
 
@@ -302,7 +310,7 @@ rename "s/^DRW(-|_| )/DudesRaw~~/i" *
 
 # DM    ->  DragonMedia
 rename "s/^DM(-|_| )/DragonMedia~~/i" * 
-rename "s/^DragonMedia (-|_| )/DragonMedia~~/i" * 
+rename "s/^DragonMedia *(-|_| )/DragonMedia~~/i" * 
 
 # DL    ->  DylanLucas
 rename "s/^DL(-|_| )/DylanLucas~~/i" * 
@@ -318,6 +326,9 @@ rename "s/^Daddys *Bondage *Boys(-|_| )/DaddysBondageBoys~~/i" *
 
 # dallasreeves.com  ->  DallasReeve
 rename "s/^dallasreeves(.com)*(-|_| )/DallasReeve~~/i" * 
+
+# Dick Wadd ->  DickWadd
+rename "s/^Dick *Wadd(.com)*(-|_| )/DickWadd~~/i" * 
 
 
 
@@ -348,6 +359,7 @@ rename "s/^EuroCreme(-|_| )/EuroCreme~~/i" *
 # FM	->	FuckerMate
 rename "s/^FKM(-|_| )/FuckerMate~~/i" * 
 rename "s/^FM(-|_| )/FuckerMate~~/i" * 
+rename "s/^Fuckermate(-|_| )/FuckerMate~~/i" * 
 
 # FD	->	FrenchDudes
 rename "s/^FD(-|_| )/FrenchDudes~~/i" * 
@@ -422,6 +434,7 @@ rename "s/^Hard *Kinks(-|_| )/HardKinks~~/i" *
 
 # HOM   ->  HotOlderMale
 rename "s/^HOM(-|_| )/HotOlderMale~~/i" * 
+rename "s/^HotOlderMale(-|_| )/HotOlderMale~~/i" * 
 
 # HardHeroes.com-   ->  HardHeroes
 rename "s/^HardHeroes(.com)*(-|_| )/HardHeroes~~/i" * 
@@ -501,6 +514,7 @@ rename "s/^TF(-|_| )/TimFuck~~/i" *
 
 # TM	->	TitanMen
 rename "s/^TM(-|_| )/TitanMen~~/i" * 
+rename "s/^TitanMen(.com)*(-|_| )/TitanMen~~/i" * 
 
 # TS	->	TimSuck
 rename "s/^TS(-|_| )/TimSuck~~/i" * 
@@ -676,6 +690,7 @@ rename "s/^Maverick *Men(.com)*(-|_| )/MaverickMen~~/i" *
 
 # MO30	->	MenOver30
 rename "s/^MO30(-|_| )/MenOver30~~/i" * 
+rename "s/^MenOver30(-|_| )/MenOver30~~/i" * 
 
 # MDM	->	Mundomais
 rename "s/^MDMBr(-|_| )/Mundomais~~/i" * 
@@ -751,6 +766,9 @@ rename "s/^Musclematt(.com)*(-|_| |~~)/MuscleMatt~~/i" *
 
 # mustang   ->  Mustang
 rename "s/^mustang(.com)*(-|_| |~~)/Mustang~~/i" * 
+
+# Msr   ->  Msr
+rename "s/^Msr(.com)*(-|_| |~~)/Msr~~/i" * 
 
 
 
