@@ -104,7 +104,7 @@ rename "s/^BDX(-|_| )/ButchDixon~~/i" *
 rename "s/^Butch Dixon(-|_| )/ButchDixon~~/i" * 
 
 #Butch Bear ->  ButchBear
-rename "s/^Butch *Bear(-|_| )/ButchBear~~/i" * 
+rename "s/^Butch *Bears*(-|_| |~~)/ButchBear~~/i" * 
 
 # BF	->	BearFilms~~
 rename "s/^BRF(-|_| )/BearFilms~~/i" * 
@@ -803,7 +803,7 @@ rename "s/^New *York *Straight *Men(.com)*(-|_| )/NewYorkStraightMen~~/i" *
 rename "s/^older4me(.com)*(-|_| )/Older4Me~~/i" * 
 
 # On Top-   ->  OnTop
-rename "s/^On Top(-|_| )/OnTop~~/i" * 
+rename "s/^On *Top(-|_| )/OnTop~~/i" * 
 
 # Out In Public ->  OutInPublic
 rename "s/^Out *In *Public(.com)*(-|_| )/OutInPublic~~/i" * 
