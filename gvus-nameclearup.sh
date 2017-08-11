@@ -34,6 +34,8 @@ rename "s/_*-_*/-/i" *
 # Gay -     ->  ''
 rename "s/Gay *- *//i" * 
 
+# &amp;amp; ->  ,
+rename "s/ *&amp;amp; */,/i" *  
 
 
 
@@ -68,6 +70,7 @@ rename "s/^American *Muscle *Hunks(.com)*(-|_| )/AmericanMuscleHunks~~/i" *
 
 # AMF   ->  AlphaMale~~
 rename "s/^AMF(-|_| )/AlphaMale~~/i" * 
+rename "s/^AM(-|_| )/AlphaMale~~/i" * 
 rename "s/^AlphaMales~~/AlphaMale~~/i" * 
 
 # AAG   ->  AllAmericanGuys
@@ -204,6 +207,9 @@ rename "s/^BodyProd(.com)*(-|_| |~~)/BodyProd~~/i" *
 
 # ButtMachineBoys   ->  ButtMachineBoys
 rename "s/^ButtMachineBoys(.com)*(-|_| |~~)/ButtMachineBoys~~/i" * 
+
+# BarebackBoyBangers    ->  BarebackBoyBangers
+rename "s/^BarebackBoyBangers(.com)*(-|_| |~~)/BarebackBoyBangers~~/i" * 
 
 
 
@@ -527,9 +533,37 @@ rename "s/^TIM(-|_| )/TreasureIslandMedia~~/i" *
 
 # TCR   ->  TheCastingRoom
 rename "s/^TCR(-|_| )/TheCastingRoom~~/i" * 
+rename "s/^TheCastingRoom(-|_| )/TheCastingRoom~~/i" * 
 
 # TGS   ->  TheGuySite
 rename "s/^TGS(-|_| )/TheGuySite~~/i" * 
+
+# TheUniversalDaddy ->  TheUniversalDaddy
+rename "s/^TheUniversalDaddy(-|_| )/TheUniversalDaddy~~/i" * 
+
+# Thugseduction ->  Thugseduction
+rename "s/^Thugseduction(-|_| )/Thugseduction~~/i" * 
+
+# TSSeduction   ->  TSSeduction
+rename "s/^TSSeduction(.com)*(-|_| )/TSSeduction~~/i" * 
+
+# Twink Pix ->  TwinkPix
+rename "s/^Twink *Pix(.com)*(-|_| )/TwinkPix~~/i" * 
+
+# twinks in shorts  ->  TwinksInShorts
+rename "s/^twinks *in *shorts(.com)*(-|_| )/TwinksInShorts~~/i" * 
+
+# UK Hot Jocks  ->  UKHotJocks
+rename "s/^UK *Hot *Jocks(-|_| )/UKHotJocks~~/i" * 
+
+# USAJock   ->  USAJock
+rename "s/^USAJock(.com)*(-|_| )/USAJock~~/i" * 
+
+# usmale    ->  UsMale
+rename "s/^usmale(.com)*(-|_| )/UsMale~~/i" * 
+
+
+
 
 
 # R ########################################
@@ -598,6 +632,8 @@ rename "s/^suite703(.com)*(-|_| )/Suite703~~/i" *
 # sweetandraw.com   ->  SweetAndRaw
 rename "s/^sweetandraw(.com)*(-|_| )/SweetAndRaw~~/i" * 
 
+# Savage Talons Media   ->  SavageTalonsMedia
+rename "s/^Savage *Talons *Media(.com)*(-|_| |~~)/SavageTalonsMedia~~/i" * 
 
 
 
@@ -770,6 +806,9 @@ rename "s/^mustang(.com)*(-|_| |~~)/Mustang~~/i" *
 # Msr   ->  Msr
 rename "s/^Msr(.com)*(-|_| |~~)/Msr~~/i" * 
 
+# Musclemen ->  MuscleMen
+rename "s/^Musclemen(.com)*(-|_| |~~)/MuscleMen~~/i" * 
+
 
 
 # N ########################################
@@ -846,7 +885,54 @@ rename "s/^UKHJ(-|_| )/UKHotJocks~~/i" *
 rename "s/^UKNM(-|_| )/UKNakedMen~~/i" * 
 rename "s/^UK *Naked *Men(-|_| )/UKNakedMen~~/i" * 
 
+# V ########################################
 
+# vagevuur  ->  vagevuur
+rename "s/^vagevuur(-|_| )/vagevuur~~/i" * 
+
+# VictorCodyXXX ->  VictorCodyXXX
+rename "s/^VictorCodyXXX(-|_| )/VictorCodyXXX~~/i" * 
+
+# Vintage   ->  Vintage
+rename "s/^Vintage(-|_| )/Vintage~~/i" * 
+
+
+# W ##########################################
+
+# wanfilm   ->  Wanfilm
+rename "s/^wanfilm(-|_| )/Wanfilm~~/i" * 
+
+# William Higgins   ->  WilliamHiggins
+rename "s/^WH(-|_| )/WilliamHiggins~~/i" * 
+rename "s/^William *Higgins(.com)*(-|_| )/WilliamHiggins~~/i" * 
+
+# WorldofMen    ->  WorldofMen
+rename "s/^WorldofMen(-|_| )/WorldofMen~~/i" * 
+
+# wrestiehard   ->  wrestiehard
+rename "s/^wrestiehard(-|_| )/Wrestiehard~~/i" * 
+
+# Wurstfilm ->  Wurstfilm
+rename "s/^Wurstfilm(-|_| )/Wurstfilm~~/i" * 
+
+
+
+
+# X ############################################
+
+
+# Y ############################################
+
+# YB    ->  YoungBastards
+rename "s/^YB(-|_| )/YoungBastards~~/i" * 
+rename "s/^young *bastards(.com)*(-|_| )/YoungBastards~~/i" * 
+
+
+
+
+
+
+# Z ############################################
 
 
 # clear up #################################
