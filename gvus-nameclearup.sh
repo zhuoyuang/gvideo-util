@@ -262,8 +262,10 @@ rename "s/^CaStJo(.com)*(-|_| |~~)/CaStJo~~/i" *
 # Cazzo Film    ->  CazzoFilm
 rename "s/^Cazzo *Film(.com)*(-|_| |~~)/CazzoFilm~~/i" * 
 
+# CZC   ->  CazzdClub
 # cazzoclub.com ->  cazzoclub.com
 rename "s/^cazzoclub(.com)*(-|_| |~~)/CazzoClub~~/i" * 
+rename "s/^CZC(-|_| |~~)/CazzoClub~~/i" * 
 
 # ch2   ->  CH2
 rename "s/^ch2(-|_| |~~)/CH2~~/i" * 
@@ -291,6 +293,7 @@ rename "s/^Cabin *Fever(-|_| |~~)/CabinFever~~/i" *
 
 # Corbin Fisher ->  Corbin Fisher
 rename "s/^Corbin *Fisher(-|_| |~~)/CorbinFisher~~/i" * 
+
 
 
 
@@ -374,6 +377,9 @@ rename "s/^FD(-|_| )/FrenchDudes~~/i" *
 rename "s/^FF(-|_| )/FetishForce~~/i" * 
 rename "s/^FetishForce(.com)*(-|_| |~~)/FetishForce~~/i" * 
 
+# FS    ->  Falcon
+rename "s/^FS(-|_| )/Falcon~~/i" * 
+
 
 
 
@@ -393,7 +399,7 @@ rename "s/^gayroom(-|_| )/GayRoom~~/i" *
 rename "s/^GH(-|_| )/GayHoopla~~/i" * 
 
 # Gay Patrol    ->  GayPatrol
-rename "s/^GP(-|_| )/GayPatrol~~/i" * 
+rename "s/^GP(-|_|_| )/GayPatrol~~/i" * 
 rename "s/^Gay *Patrol(.com)*(-|_| )/GayPatrol~~/i" * 
 
 # gaypawn.com   ->  GayPawn
@@ -594,6 +600,7 @@ rename "s/^rawcastingstmp/RawCastings/i" *
 rename "s/^RR(-|_| )/RoganRichards~~/i" * 
 
 # RWS   ->  RawStrokes
+rename "s/^RSS(-|_| )/RawStrokes~~/i" * 
 rename "s/^RWS(-|_| )/RawStrokes~~/i" * 
 
 # RD    ->  RealityDudes
@@ -723,7 +730,6 @@ rename "s/^MO(-|_| )/MeninosOnline~~/i" *
 rename "s/^MM(-|_| )/MaverickMen~~/i" * 
 rename "s/^Maverick *Men(.com)*(-|_| )/MaverickMen~~/i" * 
 
-
 # MO30	->	MenOver30
 rename "s/^MO30(-|_| )/MenOver30~~/i" * 
 rename "s/^MenOver30(-|_| )/MenOver30~~/i" * 
@@ -741,6 +747,7 @@ rename "s/^MBZ(-|_| )/MormonBoyz~~/i" *
 rename "s/^MAP(-|_| )/MenAtPlay~~/i" * 
 
 # MEN	->	Men
+rename "s/^MN(-|_| )/Men~~/i" * 
 rename "s/^Men(-|_| )/Men~~/i" * 
 
 rename "s/^MEN~~/MENtmp~~/" * 
@@ -823,10 +830,11 @@ rename "s/^nakedkombat(.com)*(-|_| )/NakedKombat~~/i" *
 #Natural Born Breeders  ->  NaturalBornBreeders
 rename "s/^natural *born *breeders(.com)*(-|_| )/NaturalBornBreeders~~/i" * 
 
-# NDB    ->     NextDoorStudios 
-rename "s/^NDO(-|_| )/NextDoorStudios~~/i" * 
-rename "s/^NDS(-|_| )/NextDoorStudios~~/i" * 
-rename "s/^NDB(-|_| )/NextDoorStudios~~/i" * 
+# NDB    ->     NextDoor
+rename "s/^NDR(-|_| )/NextDoor~~/i" * 
+rename "s/^NDO(-|_| )/NextDoor~~/i" * 
+rename "s/^NDS(-|_| )/NextDoor~~/i" * 
+rename "s/^NDB(-|_| )/NextDoor~~/i" * 
 
 # NS    ->  NakedSword
 rename "s/^NS(-|_| )/NakedSword~~/i" * 
