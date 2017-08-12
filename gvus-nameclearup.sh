@@ -219,6 +219,7 @@ rename "s/^BarebackBoyBangers(.com)*(-|_| |~~)/BarebackBoyBangers~~/i" *
 # CC 	->	ColbysCrew
 rename "s/^CC(-|_| )/ColbysCrew~~/i" * 
 rename "s/^CBC(-|_| )/ColbysCrew~~/i" * 
+rename "s/^Colbys *Crew(-|_| )/ColbysCrew~~/i" * 
 
 
 # CD 	->	CollegeDudes
@@ -380,6 +381,9 @@ rename "s/^FetishForce(.com)*(-|_| |~~)/FetishForce~~/i" *
 # FS    ->  Falcon
 rename "s/^FS(-|_| )/Falcon~~/i" * 
 
+# FYC   ->  FuckYouCracker
+rename "s/^FYC(-|_| )/FuckYouCracker~~/i" * 
+
 
 
 
@@ -432,6 +436,7 @@ rename "s/^GuySansweatpants(.com)*(-|_| )/GuySanSweatPants~~/i" *
 
 # HAR	->	HairyAndRaw
 rename "s/^HAR(-|_| )/HairyAndRaw~~/i" * 
+rename "s/^Hairy *And *Raw(-|_| )/HairyAndRaw~~/i" * 
 
 # HBL	->	HardBritLads
 rename "s/^HBL(-|_| )/HardBritLads~~/i" * 
@@ -471,6 +476,9 @@ rename "s/^HotBoys(.com)*(-|_| |~~)/HotBoys~~/i" *
 
 # HUGEmuscle.com    ->  HugeMuscle
 rename "s/^HUGEmuscle(.com)*(-|_| |~~)/HugeMuscle~~/i" * 
+
+# Hairy Boyz    ->  HairyBoyz
+rename "s/^Hairy *Boyz(.com)*(-|_| |~~)/HairyBoyz~~/i" * 
 
 
 
@@ -676,6 +684,13 @@ rename "s/PAPITHUGZ(-|_| )/Papithugz~~/i" *
 
 # Pumping Muscle    ->  PumpingMuscle
 rename "s/Pumping *Muscle(-|_| )/PumpingMuscle~~/i" *
+
+# PF    ->  PeterFever
+rename "s/PF(-|_| )/PeterFever~~/i" *
+
+
+
+
 
 
 
