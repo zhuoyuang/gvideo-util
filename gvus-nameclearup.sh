@@ -252,6 +252,7 @@ rename "s/^Club *Inferno(Dungeon)*(.com)*(-|_| |~~)/ClubInfernoDungeon~~/i" *
 
 # CM 	->	ChaosMen
 rename "s/^CM(-|_| )/ChaosMen~~/i" * 
+rename "s/^ChaosMen(-|_| )/ChaosMen~~/i" * 
 
 # CSM 	->	CockSureMen
 rename "s/^CSM(-|_| )/CockSureMen~~/i" * 
@@ -376,6 +377,7 @@ rename "s/^Dick *Wadd(.com)*(-|_| )/DickWadd~~/i" *
 
 # EBD	->	ExtraBigDicks
 rename "s/^EBD(-|_| )/ExtraBigDicks~~/i" * 
+rename "s/^Extra *Big *Dicks(-|_| )/ExtraBigDicks~~/i" * 
 
 # EV	->	EricVideos
 rename "s/^EV(-|_| )/EricVideos~~/i" * 
@@ -396,7 +398,7 @@ rename "s/^EuroCreme(-|_| )/EuroCreme~~/i" *
 # FM	->	FuckerMate
 rename "s/^FKM(-|_| )/FuckerMate~~/i" * 
 rename "s/^FM(-|_| )/FuckerMate~~/i" * 
-rename "s/^Fuckermate(-|_| )/FuckerMate~~/i" * 
+rename "s/^Fucker *mate(-|_| )/FuckerMate~~/i" * 
 
 # FD	->	FrenchDudes
 rename "s/^FD(-|_| )/FrenchDudes~~/i" * 
@@ -481,7 +483,7 @@ rename "s/^Hard *Kinks(-|_| )/HardKinks~~/i" *
 
 # HOM   ->  HotOlderMale
 rename "s/^HOM(-|_| )/HotOlderMale~~/i" * 
-rename "s/^HotOlderMale(-|_| )/HotOlderMale~~/i" * 
+rename "s/^Hot *Older *Male(-|_| )/HotOlderMale~~/i" * 
 
 # HardHeroes.com-   ->  HardHeroes
 rename "s/^HardHeroes(.com)*(-|_| )/HardHeroes~~/i" * 
@@ -569,6 +571,7 @@ rename "s/^LadsNextDoor(-|_| )/LadsNextDoor~~/i" *
 
 # TF	->	TimFuck
 rename "s/^TF(-|_| )/TimFuck~~/i" * 
+rename "s/^TimFuck(-|_| )/TimFuck~~/i" * 
 
 # TM	->	TitanMen
 rename "s/^TM(-|_| )/TitanMen~~/i" * 
@@ -901,6 +904,7 @@ rename "s/^NDR(-|_| )/NextDoor~~/i" *
 rename "s/^NDO(-|_| )/NextDoor~~/i" * 
 rename "s/^NDS(-|_| )/NextDoor~~/i" * 
 rename "s/^NDB(-|_| )/NextDoor~~/i" * 
+rename "s/^Next *Door *Buddies(-|_| )/NextDoor~~/i" * 
 
 # NS    ->  NakedSword
 rename "s/^NS(-|_| )/NakedSword~~/i" * 
@@ -948,6 +952,9 @@ rename "s/^JuicyBoys(-|_| )/JuicyBoys~~/i" *
 
 # Jet Set   ->  JetSet
 rename "s/^Jet *Set *Men(.com)*(-|_| )/JetSet~~/i" * 
+
+# Jalif Studio  ->  JalifStudio
+rename "s/^Jalif *Studio(-|_| )/JalifStudio~~/i" * 
 
 
 # U ########################################
