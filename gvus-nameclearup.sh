@@ -594,6 +594,7 @@ rename "s/^TheCastingRoom(-|_| )/TheCastingRoom~~/i" *
 
 # TGS   ->  TheGuySite
 rename "s/^TGS(-|_| )/TheGuySite~~/i" * 
+rename "s/^The *Guy *Site(-|_| )/TheGuySite~~/i" * 
 
 # TheUniversalDaddy ->  TheUniversalDaddy
 rename "s/^TheUniversalDaddy(-|_| )/TheUniversalDaddy~~/i" * 
