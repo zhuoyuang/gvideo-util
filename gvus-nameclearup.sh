@@ -105,6 +105,7 @@ rename "s/^baitbuddiestmp/BaitBuddies/i" *
 
 # BG	->	BoundGods~~
 rename "s/^BG(-|_| )/BoundGods~~/i" * 
+rename "s/^Bound *Gods(-|_| )/BoundGods~~/i" * 
 
 # BBD	->	BlackBreeders~~
 rename "s/^BBD(-|_| )/BlackBreeders~~/i" * 
@@ -133,6 +134,7 @@ rename "s/^BFC(-|_| )/BreederFuckers~~/i" *
 
 # BMR  ->	BreedMeRaw~~
 rename "s/^BMR(-|_| )/BreedMeRaw~~/i" * 
+rename "s/^Breed *Me *Raw(-|_| )/BreedMeRaw~~/i" * 
 
 # BM  ->	BlakeMason~~
 rename "s/^BM(-|_| )/BlakeMason~~/i" * 
@@ -289,6 +291,7 @@ rename "s/^Cazzo *Film(.com)*(-|_| |~~)/CazzoFilm~~/i" *
 # CZC   ->  CazzdClub
 # cazzoclub.com ->  cazzoclub.com
 rename "s/^cazzoclub(.com)*(-|_| |~~)/CazzoClub~~/i" * 
+rename "s/^cazzo(.com)*(-|_| |~~)/CazzoClub~~/i" * 
 rename "s/^CZC(-|_| |~~)/CazzoClub~~/i" * 
 
 # ch2   ->  CH2
@@ -523,6 +526,7 @@ rename "s/^Hot *Guys *Fuck(.com)*(-|_| |~~)/HotGuysFuck~~/i" *
 # I ########################################
 # IM	->	IconMale
 rename "s/^IM(-|_| )/IconMale~~/i" * 
+rename "s/^Icon *Male(-|_| )/IconMale~~/i" * 
 
 
 
