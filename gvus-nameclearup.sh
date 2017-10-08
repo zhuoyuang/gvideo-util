@@ -86,7 +86,7 @@ rename "s/^American *Muscle *Hunks(.com)*(-|_| )/AmericanMuscleHunks~~/i" *
 # AMF   ->  AlphaMale~~
 rename "s/^AMF(-|_| )/AlphaMale~~/i" * 
 rename "s/^AM(-|_| )/AlphaMale~~/i" * 
-rename "s/^AlphaMales~~/AlphaMale~~/i" * 
+rename "s/^AlphaMales(-|_| )/AlphaMale~~/i" * 
 
 # AAG   ->  AllAmericanGuys
 rename "s/^AAG(-|_| )/AllAmericanGuys~~/i" * 
@@ -128,6 +128,7 @@ rename "s/^Butch *Bear(s)*(-|_| |~~)/ButchBear~~/i" *
 # BF	->	BearFilms~~
 rename "s/^BRF(-|_| )/BearFilms~~/i" * 
 rename "s/^BF(-|_| )/BearFilms~~/i" * 
+rename "s/^Bear *Films(-|_| )/BearFilms~~/i" * 
 
 # BFC	->	BreederFuckers~~
 rename "s/^BFC(-|_| )/BreederFuckers~~/i" * 
@@ -176,6 +177,7 @@ rename "s/^BigDaddy.com(-|_| )/BigDaddy~~/i" *
 
 # BIR       ->  BreedItRaw
 rename "s/^BIR(-|_| )/BreedItRaw~~/i" * 
+rename "s/^Breed *It *Raw(-|_| )/BreedItRaw~~/i" * 
 
 # BLG       ->BrokeLatinoGuys
 rename "s/^BLG(-|_| )/BrokeLatinoGuys~~/i" * 
@@ -235,6 +237,8 @@ rename "s/^BarebackBoyBangers(.com)*(-|_| |~~)/BarebackBoyBangers~~/i" *
 # BravoFucker   ->  BravoFucker~~
 rename "s/^BravoFucker(.com)*(-|_| )/BravoFucker~~/i" * 
 
+# BoundInPublic BoundInPublic
+rename "s/^Bound *In *Public(.com)*(-|_| )/BoundInPublic~~/i" * 
 
 
 # C ########################################
@@ -324,7 +328,11 @@ rename "s/^Corbin *Fisher(-|_| |~~)/CorbinFisher~~/i" *
 # Cum Junkie    ->  CumJunkie
 rename "s/^Cum *Junkie(-|_| |~~)/CumJunkie~~/i" * 
 
+# Colt ->  Colt
+rename "s/^Colt(-|_| |~~)/Colt~~/i" * 
 
+# Crunchboy -> Crunchboy 
+rename "s/^Crunch *boy(-|_| |~~)/Crunchboy~~/i" * 
 
 
 
@@ -355,6 +363,7 @@ rename "s/^Dragon *Media *(-|_| )/DragonMedia~~/i" *
 
 # DL    ->  DylanLucas
 rename "s/^DL(-|_| )/DylanLucas~~/i" * 
+rename "s/^Dylan *Lucas(-|_| )/DylanLucas~~/i" * 
 
 # DT    ->  DirtyTony
 rename "s/^DT(-|_| )/DirtyTony~~/i" * 
@@ -410,9 +419,13 @@ rename "s/^FD(-|_| )/FrenchDudes~~/i" *
 rename "s/^FF(-|_| )/FetishForce~~/i" * 
 rename "s/^FetishForce(.com)*(-|_| |~~)/FetishForce~~/i" * 
 
+# Falcon Mustang    FalconMustang
+rename "s/^Falcon *Mustang(-|_| )/FalconMustang~~/i" * 
+
 # FS    ->  Falcon
 rename "s/^FS(-|_| )/Falcon~~/i" * 
 rename "s/^Falcon *Studios(-|_| )/Falcon~~/i" * 
+rename "s/^Falcon(-|_| )/Falcon~~/i" * 
 
 # FYC   ->  FuckYouCracker
 rename "s/^FYC(-|_| )/FuckYouCracker~~/i" * 
@@ -430,7 +443,7 @@ rename "s/^GuyBone(.com)*(-|_| )/GayBone~~/i" *
 
 # GR	->	GayRoom
 rename "s/^GR(-|_| )/GayRoom~~/i" * 
-rename "s/^gayroom(-|_| )/GayRoom~~/i" * 
+rename "s/^gay *room(-|_| )/GayRoom~~/i" * 
 
 # GH	->	GayHoopla
 rename "s/^GH(-|_| )/GayHoopla~~/i" * 
@@ -465,6 +478,9 @@ rename "s/^greyfoxlounge(.com)*(-|_| )/GreyFoxLounge~~/i" *
 # GuySansweatpants  ->  GuySanSweatPants
 rename "s/^GuySansweatpants(.com)*(-|_| )/GuySanSweatPants~~/i" * 
 
+# Grey Rose -> GreyRose
+rename "s/^Grey *Rose(.com)*(-|_| )/GreyRose~~/i" * 
+
 
 # H ########################################
 
@@ -478,7 +494,7 @@ rename "s/^Hard *Brit *Lads(.com)*(-|_| )/HardBritLads~~/i" *
 
 # HH	->	HotHouse
 rename "s/^HH(-|_| )/HotHouse~~/i" * 
-rename "s/^HotHouse(-|_| )/HotHouse~~/i" * 
+rename "s/^Hot *House(-|_| )/HotHouse~~/i" * 
 
 # HK	->	HardKinks
 rename "s/^HK(-|_| )/HardKinks~~/i" * 
@@ -528,6 +544,8 @@ rename "s/^Hot *Guys *Fuck(.com)*(-|_| |~~)/HotGuysFuck~~/i" *
 rename "s/^IM(-|_| )/IconMale~~/i" * 
 rename "s/^Icon *Male(-|_| )/IconMale~~/i" * 
 
+# IM	->	IconMale
+rename "s/^IRon *Horse(-|_| )/IRonHorse~~/i" * 
 
 
 
@@ -570,6 +588,9 @@ rename "s/^LND(-|_| )/LadsNextDoor~~/i" *
 rename "s/^LadsNextDoor(-|_| )/LadsNextDoor~~/i" * 
 
 
+# Lavender Lounge ->  LavenderLounge
+rename "s/^Lavender *Lounge(-|_| )/LavenderLounge~~/i" * 
+
 
 # T ########################################
 
@@ -580,6 +601,7 @@ rename "s/^TimFuck(-|_| )/TimFuck~~/i" *
 # TM	->	TitanMen
 rename "s/^TM(-|_| )/TitanMen~~/i" * 
 rename "s/^Titan *Men(.com)*(-|_| )/TitanMen~~/i" * 
+rename "s/^Titan*(-|_| )/TitanMen~~/i" * 
 
 # TS	->	TimSuck
 rename "s/^TS(-|_| )/TimSuck~~/i" * 
@@ -635,6 +657,7 @@ rename "s/^Tian *Men(.com)*(-|_| )/TianMen~~/i" *
 
 # RB    ->  RandyBlue
 rename "s/^RB(-|_| )/RandyBlue~~/i" * 
+rename "s/^Randy *Blue(-|_| )/RandyBlue~~/i" * 
 
 # RFC	->	RawFuckClub
 rename "s/^RFC(-|_| )/RawFuckClub~~/i" * 
@@ -667,6 +690,7 @@ rename "s/^RWS(-|_| )/RawStrokes~~/i" *
 
 # RD    ->  RealityDudes
 rename "s/^RD(-|_| )/RealityDudes~~/i" * 
+rename "s/^Reality *Dudes(-|_| )/RealityDudes~~/i" * 
 
 # RNF    -> RawNastyFuckers 
 rename "s/^RNF(-|_| )/RawNastyFuckers~~/i" * 
@@ -704,7 +728,12 @@ rename "s/^sweetandraw(.com)*(-|_| )/SweetAndRaw~~/i" *
 # Savage Talons Media   ->  SavageTalonsMedia
 rename "s/^Savage *Talons *Media(.com)*(-|_| |~~)/SavageTalonsMedia~~/i" * 
 
+# Sparta -> Sparta 
+rename "s/^Sparta(-|_| |~~)/Sparta~~/i" * 
+rename "s/^Sparta *Video(-|_| |~~)/Sparta~~/i" * 
 
+# Skyn Men-> SkynMen
+rename "s/^Skyn *Men(-|_| |~~)/SkynMen~~/i" * 
 
 
 
@@ -731,7 +760,10 @@ rename "s/Pride *Studios(.com)*(-|_| )/PrideStudios~~/i" *
 rename "s/PantheonBear (-|_| )/PantheonBear~~/i" *
 
 # PantheonProductions   ->PantheonProductions
-rename "s/PantheonProductions(-|_| )/PantheonProductions~~/i" *
+rename "s/Pantheon *Productions(-|_| )/PantheonProductions~~/i" *
+
+# Pantheon ->Pantheon
+rename "s/Pantheon(-|_| )/Pantheon~~/i" *
 
 # PAPITHUGZ ->  Papithugz
 rename "s/PAPITHUGZ(-|_| )/Papithugz~~/i" *
@@ -742,7 +774,11 @@ rename "s/Pumping *Muscle(-|_| )/PumpingMuscle~~/i" *
 # PF    ->  PeterFever
 rename "s/PF(-|_| )/PeterFever~~/i" *
 
+# Pitbull Productions    ->  Pitbull
+rename "s/Pitbull *Productions(-|_| )/Pitbull Productions~~/i" *
 
+# PhoeniXXX-> PhoeniXXX 
+rename "s/PhoeniXX(X)*(-|_| )/PhoeniXXX~~/i" *
 
 
 
@@ -758,7 +794,7 @@ rename "s/PF(-|_| )/PeterFever~~/i" *
 # R ########################################
 
 # RawJoxxx  ->  RawJoxxx
-rename "s/RawJoxxx(-|_| )/RawJoxxx~~/i" *
+rename "s/RawJoxx(x)*(-|_| )/RawJoxxx~~/i" *
 
 # Raw Edge Video    ->  RawEdgeVideo
 rename "s/Raw *Edge *Video(-|_| )/RawEdgeVideo~~/i" *
@@ -768,6 +804,9 @@ rename "s/RayDragon(.com)*(-|_| )/RayDragon~~/i" *
 
 # RockCandyFilms    ->  RockCandyFilms
 rename "s/RockCandyFilms(.com)*(-|_| )/RockCandyFilms~~/i" *
+
+# Rascal Rascal
+rename "s/Rascal(-|_| )/Rascal~~/i" *
 
 # S ########################################
 
@@ -890,6 +929,13 @@ rename "s/^Msr(.com)*(-|_| |~~)/Msr~~/i" *
 # Musclemen ->  MuscleMen
 rename "s/^Musclemen(.com)*(-|_| |~~)/MuscleMen~~/i" * 
 
+# MuscleBearPorn -> MuscleBearPorn
+rename "s/^MuscleBearPorn(.com)*(-|_| |~~)/MuscleBearPorn~~/i" * 
+rename "s/^MBP(.com)*(-|_| |~~)/MuscleBearPorn~~/i" * 
+
+# Myfirstdaddy ->MyFirstDaddy 
+rename "s/^Myfirstdaddy(.com)*(-|_| |~~)/MyFirstDaddy~~/i" * 
+rename "s/^MFD(.com)*(-|_| |~~)/MyFirstDaddy~~/i" * 
 
 
 # N ########################################
@@ -910,6 +956,7 @@ rename "s/^NDO(-|_| )/NextDoor~~/i" *
 rename "s/^NDS(-|_| )/NextDoor~~/i" * 
 rename "s/^NDB(-|_| )/NextDoor~~/i" * 
 rename "s/^Next *Door *Buddies(-|_| )/NextDoor~~/i" * 
+rename "s/^Next *Door(-|_| )/NextDoor~~/i" * 
 
 # NS    ->  NakedSword
 rename "s/^NS(-|_| )/NakedSword~~/i" * 
@@ -923,6 +970,7 @@ rename "s/^New *York *Straight *Men(.com)*(-|_| )/NewYorkStraightMen~~/i" *
 
 # older4me.com  ->  Older4Me
 rename "s/^older4me(.com)*(-|_| )/Older4Me~~/i" * 
+rename "s/^o4m(.com)*(-|_| )/Older4Me~~/i" * 
 
 # On Top-   ->  OnTop
 rename "s/^On *Top(-|_| )/OnTop~~/i" * 
@@ -938,6 +986,7 @@ rename "s/^Out *In *Public(.com)*(-|_| )/OutInPublic~~/i" *
 # JZ 	-> JimmyZ
 rename "s/^JZ(-|_| )/JimmyZ~~/i" * 
 rename "s/^JZP(-|_| )/JimmyZ~~/i" * 
+rename "s/^Jimmy *Z(-|_| )/JimmyZ~~/i" * 
 
 # JS 	-> JalifStudio
 rename "s/^JS(-|_| )/JalifStudio~~/i" * 
