@@ -91,6 +91,9 @@ rename "s/^AlphaMales(-|_| )/AlphaMale~~/i" *
 # AAG   ->  AllAmericanGuys
 rename "s/^AAG(-|_| )/AllAmericanGuys~~/i" * 
 
+# AAH   AllAmericanHeroes
+rename "s/^AAH(-|_| )/AllAmericanGuys~~/i" * 
+rename "s/^All-*American Heroes(-|_| )/AllAmericanGuys~~/i" * 
 
 
 
@@ -297,6 +300,7 @@ rename "s/^Cazzo *Film(.com)*(-|_| |~~)/CazzoFilm~~/i" *
 rename "s/^cazzoclub(.com)*(-|_| |~~)/CazzoClub~~/i" * 
 rename "s/^cazzo(.com)*(-|_| |~~)/CazzoClub~~/i" * 
 rename "s/^CZC(-|_| |~~)/CazzoClub~~/i" * 
+rename "s/^CAZZO *CLUB(-|_| |~~)/CazzoClub~~/i" * 
 
 # ch2   ->  CH2
 rename "s/^ch2(-|_| |~~)/CH2~~/i" * 
@@ -367,6 +371,7 @@ rename "s/^Dylan *Lucas(-|_| )/DylanLucas~~/i" *
 
 # DT    ->  DirtyTony
 rename "s/^DT(-|_| )/DirtyTony~~/i" * 
+rename "s/^Dirty *Tony(-|_| )/DirtyTony~~/i" * 
 
 # DaddyMugs.com ->  DaddyMugs
 rename "s/^DaddyMugs(.com)*(-|_| )/DaddyMugs~~/i" * 
@@ -591,6 +596,8 @@ rename "s/^LadsNextDoor(-|_| )/LadsNextDoor~~/i" *
 # Lavender Lounge ->  LavenderLounge
 rename "s/^Lavender *Lounge(-|_| )/LavenderLounge~~/i" * 
 
+# LucasKazan LucasKazan
+rename "s/^Lucas *Kazan(-|_| )/LucasKazan~~/i" * 
 
 # T ########################################
 
