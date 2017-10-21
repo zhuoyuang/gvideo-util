@@ -161,6 +161,9 @@ rename "s/^BTH(-|_| )/BarebackThatHole~~/i" *
 rename "s/^BBTH(-|_| )/BarebackThatHole~~/i" * 
 rename "s/^Bareback *That *Hole(-|_| )/BarebackThatHole~~/i" * 
 
+# Bareback Me Daddy -> BarebackMeDaddy
+rename "s/^Bareback *Me *Daddy(-|_| )/BarebackMeDaddy~~/i" * 
+
 # BV 	->	BiaggiVideos~~
 rename "s/^BV(-|_| )/BiaggiVideos~~/i" * 
 rename "s/^Biaggivideo(s)*(.com)*(-|_| )/BiaggiVideos~~/i" * 
@@ -273,6 +276,7 @@ rename "s/^Catalina *(-|_| |~~)/C1R~~/i" *
 
 # CB    ->  CockyBoys
 rename "s/^CB(-|_| )/CockyBoys~~/i" * 
+rename "s/^Cocky *Boys(-|_| )/CockyBoys~~/i" * 
 
 # CPM    -> CumPigMen
 rename "s/^CPM(-|_| )/CumPigMen~~/i" * 
@@ -435,6 +439,8 @@ rename "s/^Falcon(-|_| )/Falcon~~/i" *
 # FYC   ->  FuckYouCracker
 rename "s/^FYC(-|_| )/FuckYouCracker~~/i" * 
 
+# Family Dick -> FamilyDick
+rename "s/^Family *Dick(-|_| )/FamilyDick~~/i" * 
 
 
 
@@ -830,6 +836,10 @@ rename "s/^straightfraternity(.com)*(-|_| )/StraightFraternity~~/i" *
 
 # Straighthell.net  ->  StraightHell
 rename "s/^Straighthell(.net)*(-|_| )/StraightHell~~/i" * 
+
+# Smokinghunks -> Smokinghunks
+rename "s/^Smoking *hunks(-|_| )/SmokingHunks~~/i" * 
+
 
 
 
