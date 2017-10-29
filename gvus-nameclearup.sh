@@ -30,6 +30,8 @@ rename "s/~~[0-9]+/~~/i" *
 
 # 去除ponyking
 rename "s/\[*PONYKING(.COM)*\]* *//i" *
+rename "s/&amp;/ /i" * 
+rename "s/amp;/ /i" * 
 
 # ' - ' -> '-'
 rename "s/ *– */-/i" *
@@ -86,7 +88,7 @@ rename "s/^American *Muscle *Hunks(.com)*(-|_| )/AmericanMuscleHunks~~/i" *
 # AMF   ->  AlphaMale~~
 rename "s/^AMF(-|_| )/AlphaMale~~/i" * 
 rename "s/^AM(-|_| )/AlphaMale~~/i" * 
-rename "s/^AlphaMales(-|_| )/AlphaMale~~/i" * 
+rename "s/^AlphaMales*(-|_| )/AlphaMale~~/i" * 
 
 # AAG   ->  AllAmericanGuys
 rename "s/^AAG(-|_| )/AllAmericanGuys~~/i" * 
@@ -246,6 +248,11 @@ rename "s/^BravoFucker(.com)*(-|_| )/BravoFucker~~/i" *
 # BoundInPublic BoundInPublic
 rename "s/^Bound *In *Public(.com)*(-|_| )/BoundInPublic~~/i" * 
 
+# BarebackCumPigs -> BarebackCumPigs
+rename "s/^Bareback *Cum *Pigs(.com)*(-|_| )/BarebackCumPigs~~/i" * 
+
+# Blacks on Daddies -> BlacksOnDaddies
+rename "s/^Blacks *on *Daddies(.com)*(-|_| )/BlacksOnDaddies~~/i" * 
 
 # C ########################################
 
@@ -354,7 +361,7 @@ rename "s/^DAXT(-|_| )/DarkAlleyXT~~/i" *
 rename "s/^DAM(-|_| )/DarkAlleyXT~~/i" * 
 rename "s/^DRM(-|_| )/DarkAlleyXT~~/i" * 
 rename "s/^Dark *Alley *XT(-|_| )/DarkAlleyXT~~/i" * 
-rename "s/^Dark *Alley(-|_| )/DarkAlley~~/i" * 
+rename "s/^Dark *Alley(media)*(-|_| )/DarkAlley~~/i" * 
 
 # DF	->	DominicFord
 rename "s/^DF(-|_| )/DominicFord~~/i" * 
@@ -626,6 +633,8 @@ rename "s/^Tim *Tales(-|_| )/TimTales~~/i" *
 
 # TIM   -> TreasureIslandMedia
 rename "s/^TIM(-|_| )/TreasureIslandMedia~~/i" * 
+rename "s/^Treasure *Island *Media(-|_| )/TreasureIslandMedia~~/i" * 
+rename "s/^Tresure *Island *Media(-|_| )/TreasureIslandMedia~~/i" * 
 
 # TCR   ->  TheCastingRoom
 rename "s/^TCR(-|_| )/TheCastingRoom~~/i" * 
@@ -719,6 +728,7 @@ rename "s/^SeducedStraightGuys(.com)*(-|_| )/SeducedStraightGuys~~/i" *
 
 # SH    ->  StagHomme
 rename "s/^SH(-|_| )/StagHomme~~/i" * 
+rename "s/^Stag *Homme(-|_| )/StagHomme~~/i" * 
 
 # SlowTeasingHandJobs.com   ->  SlowTeasingHandJobs
 rename "s/^SlowTeasingHandJobs(.com)*(-|_| )/SlowTeasingHandJobs~~/i" * 
@@ -808,6 +818,7 @@ rename "s/PhoeniXX(X)*(-|_| )/PhoeniXXX~~/i" *
 
 # RawJoxxx  ->  RawJoxxx
 rename "s/RawJoxx(x)*(-|_| )/RawJoxxx~~/i" *
+rename "s/Raw *Joxx(x)*(-|_| )/RawJoxxx~~/i" *
 
 # Raw Edge Video    ->  RawEdgeVideo
 rename "s/Raw *Edge *Video(-|_| )/RawEdgeVideo~~/i" *
@@ -839,6 +850,7 @@ rename "s/^Straighthell(.net)*(-|_| )/StraightHell~~/i" *
 
 # Smokinghunks -> Smokinghunks
 rename "s/^Smoking *hunks(-|_| )/SmokingHunks~~/i" * 
+rename "s/^(Gay)* *Muscle-SmokingHunks *(-|_| )/SmokingHunks~~/i" * 
 
 
 
@@ -977,6 +989,7 @@ rename "s/^Next *Door(-|_| )/NextDoor~~/i" *
 
 # NS    ->  NakedSword
 rename "s/^NS(-|_| )/NakedSword~~/i" * 
+rename "s/^Naked *Sword(.com)*(-|_| )/NakedSword~~/i" * 
 
 # NewYorkStraight Men   ->  NewYorkStraightMen
 rename "s/^New *York *Straight *Men(.com)*(-|_| )/NewYorkStraightMen~~/i" * 
